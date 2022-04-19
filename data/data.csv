@@ -1,0 +1,501 @@
+matrícula,nome,idade,renda,cor,sexo,ano_curso,escola,curso,logradouro,numero,bairro,cidade,uf,cep,motivação,porcentagem_concluida_curso,coordenadas_long_lat,distrito
+RA55000001,Aldelita Dinis,19,339.0,branca,feminino,3,pública,medicina,Rua Major Ari Gomes,118,Vila Mazzei,São Paulo,SP,02309-050,10,0.5,"-46.6068757, -23.4741075",TUCURUVI
+RA55000002,Leudo Campelo  Ouro,19,373.0,branca,masculino,3,pública,design,Rua Caetano Mero,60,Vila Constança,São Paulo,SP,04658-080,10,1.0,"-46.6654077, -23.672821",CID ADEMAR
+RA55000003,Geisemara Gonçalves,19,121.0,branca,feminino,3,pública,ciência de dados,Rua Vinte e Um de Abril,334,Jardim Colibri,São Paulo,SP,04855-620,9,0.8571428571428571,"-46.6114574, -23.5446954",BRAS
+RA55000004,Clislene Cantanhede,19,518.0,branca,feminino,3,pública,ciência de dados,Rua Caetano de Moura,216,Vila Nina,São Paulo,SP,02833-060,10,0.8571428571428571,"-46.6922537, -23.4782964",FREGUESIA DO O
+RA55000005,Apolonia Arantes Ruas Pacheco,19,284.0,branca,feminino,3,pública,administração,Rua Curruíra,550,Vila Aurora,São Paulo,SP,05186-200,10,0.75,"-46.7532983, -23.4312806",PERUS
+RA55000006,Jailan Valverde Natal,19,237.0,branca,masculino,3,pública,engenharia biomédica,Rua Marcos Freire,579,Jardim Nova Conquista,São Paulo,SP,08346-580,10,0.6,"-46.4441347, -23.6189277",SAO RAFAEL
+RA55000007,Eliane Esparteiro Gorjão Mourato,19,17.0,branca,feminino,3,pública,engenharia biomédica,Rua Vinte e Dois de Abril,329,Lajeado,São Paulo,SP,08450-420,10,0.6,"-46.3993909, -23.5444124",LAJEADO
+RA55000008,Gesiane Sintra Pederneiras Nolasco,19,512.0,branca,feminino,3,pública,administração,Rua Quinze de Novembro,803,Cantinho do Céu,São Paulo,SP,04849-527,9,0.75,"-46.6576262, -23.7408176",GRAJAU
+RA55000009,Simael Palhares Borges Garcia,19,516.0,preta,masculino,3,pública,filosofia,Rua Duque da Terceira,930,Jardim Maristela,São Paulo,SP,02807-030,10,1.0,"-46.7021237, -23.4783907",FREGUESIA DO O
+RA55000010,Dislaine Casalinho Vaz Imperial,19,396.0,branca,feminino,3,pública,engenharia biomédica,Rua Vinte de Março,315,Jardim Felicidade (Zona Norte),São Paulo,SP,02326-115,10,0.6,"-46.5737987, -23.4391204",JACANA
+RA55000011,Maggy Ramos Da Costa,19,27.0,branca,feminino,3,pública,design,Rua Monsenhor Salim,959,Itaim Paulista,São Paulo,SP,08111-180,10,1.0,"-46.3795467, -23.4951311",ITAIM PAULISTA
+RA55000012,Ketlin Malho Mirandela,19,520.0,preta,feminino,3,pública,design,Avenida Duquesa de Goiás,792,Real Parque,São Paulo,SP,05686-900,9,1.0,"-46.7025865, -23.6146259",MORUMBI
+RA55000013,Namara Gago,19,39.0,branca,feminino,3,pública,direito,Rua Silva Pinto,972,Bom Retiro,São Paulo,SP,01126-010,10,0.6,"-46.6400348, -23.5290012",BOM RETIRO
+RA55000014,Regiano Pais Sabala Lemos,19,98.0,branca,masculino,3,pública,direito,Rua Pedro Voss,58,Vila Carrão,São Paulo,SP,03437-000,9,0.6,"-46.527327, -23.5550285",CARRAO
+RA55000015,Lucimare Olaio,19,353.0,branca,feminino,3,pública,ciência da computação,Rua Sete de Abril,787,Centro,São Paulo,SP,01044-902,10,0.75,"-46.64274040000001, -23.5442654",REPUBLICA
+RA55000016,Endeson Remígio,19,69.0,branca,masculino,3,pública,design,Rua Treze de Maio,917,Cantinho do Céu,São Paulo,SP,04849-650,9,1.0,"-46.6573675, -23.7404567",GRAJAU
+RA55000017,Mateus Sarmento Nóbrega Félix,19,403.0,branca,masculino,3,pública,filosofia,Rua João Pais,348,Jardim Petrópolis,São Paulo,SP,04603-904,9,1.0,"-46.6891946, -23.6290085",SANTO AMARO
+RA55000018,Gleidiane Espírito Santo Marroquim Bulhosa,19,598.0,branca,feminino,3,pública,engenharia biomédica,Avenida Agami,715,Moema,São Paulo,SP,04522-001,9,0.6,"-46.6597619, -23.6008414",MOEMA
+RA55000019,Ardilis Cruz Canadas,19,523.0,branca,masculino,3,pública,filosofia,Rua Nossa Senhora Aparecida,604,Jardim Felicidade (Zona Norte),São Paulo,SP,02326-105,9,1.0,"-46.5768098, -23.4440407",JACANA
+RA55000020,Dagomar Noleto Caminha Lara,19,733.99,branca,masculino,3,pública,filosofia,Rua Capitão Rangel,574,Vila São Geraldo,São Paulo,SP,03607-100,10,1.0,"-46.5442257, -23.5174735",PENHA
+RA55000021,Agenor Cartaxo Távora Pessoa,19,1141.99,preta,masculino,3,pública,engenharia biomédica,Rua Pires de Almeida,58,Vila Pita,São Paulo,SP,02478-130,9,0.6,"-46.66178290000001, -23.4775089",CACHOEIRINHA
+RA55000022,Fabriano Peixoto Mourinho Estrada,19,964.99,branca,masculino,3,pública,medicina,Rua Caetano de Moura,216,Vila Nina,São Paulo,SP,02833-060,9,0.5,"-46.6922537, -23.4782964",FREGUESIA DO O
+RA55000023,Denizan Faia,19,989.99,preta,masculino,3,pública,design,Rua Capitão Luís Ramos,871,Vila Guilherme,São Paulo,SP,02066-010,9,1.0,"-46.6059649, -23.503564",VILA GUILHERME
+RA55000024,Luender Belchior,19,914.99,branca,masculino,3,pública,administração,Rua Almeida Leite,424,Siciliano,São Paulo,SP,05052-080,10,0.75,"-46.7002458, -23.5340327",LAPA
+RA55000025,Lucileia Miranda,19,952.99,branca,feminino,3,pública,design,Travessa Sete de Setembro,449,Recanto dos Humildes,São Paulo,SP,05209-550,9,1.0,"-46.75037930000001, -23.4129273",PERUS
+RA55000026,Natalie Hipólito Freixo,19,867.99,branca,feminino,3,pública,ciência de dados,Rua São Bruno,741,Jardim São Bento,São Paulo,SP,02525-020,10,0.8571428571428571,"-46.6471054, -23.5032003",CASA VERDE
+RA55000027,Ademor Silva Noronha,19,832.99,branca,masculino,3,pública,ciência da computação,Rua Sargento Paulo Moreira,688,Conjunto Habitacional Marechal Mascarenhas de Morais,São Paulo,SP,03977-160,10,0.75,"-46.4973849, -23.6200865",SAPOPEMBA
+RA55000028,Carlinho Caparica Almeida,19,869.99,preta,masculino,3,pública,história,Rua Batista Caetano,419,Aclimação,São Paulo,SP,04108-130,10,0.75,"-46.6286718, -23.5813875",VILA MARIANA
+RA55000029,Jaclecia Lucena Barcelos,19,611.99,branca,feminino,3,pública,administração,Rua Duque de Palmela,626,Vila Praia,São Paulo,SP,05750-200,9,0.75,"-46.6913427, -23.5372255",PERDIZES
+RA55000030,Emerson Pádua Baía Nobre,19,1033.99,branca,masculino,3,pública,administração,Rua Pedro Cubas,738,Piqueri,São Paulo,SP,02913-000,9,0.75,"-46.7142979, -23.5042735",PIRITUBA
+RA55000031,Elvia Braga Franqueira Rocha,19,931.99,branca,feminino,3,pública,história,Rua Rui Barbosa Lima,441,Vila Curuçá,São Paulo,SP,08030-730,9,0.75,"-46.4195526, -23.5049471",VILA CURUCA
+RA55000032,Carmos Inês Maior Souto,19,1198.99,branca,masculino,3,pública,direito,Rua Primeiro de Maio,149,Jardim São Francisco,São Paulo,SP,08390-263,9,0.6,"-46.4498428, -23.626695",SAO RAFAEL
+RA55000033,Franciso Paiva Cardim Delgado,19,878.99,branca,masculino,3,pública,design,Rua Pedro Meira,678,Vila Curuçá,São Paulo,SP,08030-500,9,1.0,"-46.4227213, -23.5076955",VILA CURUCA
+RA55000034,Gesileide Espírito Santo Barros,19,790.99,branca,feminino,3,pública,medicina,Rua Dom Pedro,498,Jardim Apurá,São Paulo,SP,04470-037,9,0.5,"-46.6613435, -23.7409979",GRAJAU
+RA55000035,Jordelma Xisto,19,1204.99,preta,feminino,3,pública,administração,Rua Dois de Julho,506,Ipiranga,São Paulo,SP,04215-000,10,0.75,"-46.6012332, -23.5960735",IPIRANGA
+RA55000036,Rogue Eanes Madruga Filipe,19,644.99,branca,masculino,3,pública,medicina,Praça Sete de Fevereiro,594,Vila Formosa,São Paulo,SP,03358-020,9,0.5,"-46.5514324, -23.5637006",VILA FORMOSA
+RA55000037,Darcileia Rosado,19,912.99,branca,feminino,3,pública,ciência da computação,Rua C,501,Jardim Santa Cruz (Sacomã),São Paulo,SP,04182-135,9,0.75,"-46.6008082, -23.6427605",SACOMA
+RA55000038,Odaise Bettencourt Galvão,19,1031.99,branca,feminino,3,pública,história,Rua Silva Pinto,123,Bom Retiro,São Paulo,SP,01126-010,9,0.75,"-46.6409844, -23.5293328",BOM RETIRO
+RA55000039,Otoniel Paula Cabral Teves,19,1185.99,branca,masculino,3,pública,medicina,Avenida Valle,752,Parque Paulistano,São Paulo,SP,08081-070,10,0.5,"-46.4220155, -23.491066",JD HELENA
+RA55000040,Jocassio Azenha Varejão,19,764.99,branca,masculino,3,pública,história,Rua Marconi,820,Centro,São Paulo,SP,01047-905,10,0.75,"-46.6404438, -23.5456485",REPUBLICA
+RA55000041,Miquelle Paião,19,884.99,branca,feminino,3,pública,direito,Praça Aramã,946,Jardim Nordeste,São Paulo,SP,03691-160,10,0.6,"-46.486362, -23.5320195",ARTUR ALVIM
+RA55000042,Verlandio Vilaverde,19,1133.99,branca,masculino,3,pública,design,Praça Sete de Fevereiro,594,Vila Formosa,São Paulo,SP,03358-020,10,1.0,"-46.5514324, -23.5637006",VILA FORMOSA
+RA55000043,Thiers Quirino Lins,19,1138.99,branca,masculino,3,pública,ciência da computação,Rua Marino Pinto,894,Jardim Palmares (Zona Sul),São Paulo,SP,04457-090,10,0.75,"-46.6782738, -23.6893317",CAMPO GRANDE
+RA55000044,Irven Custódio Alencar,19,701.99,branca,masculino,3,pública,design,Rua H,161,Jardim Mar Lune,São Paulo,SP,04874-120,10,1.0,"-46.59432590000001, -23.6324654",SACOMA
+RA55000045,Abraham Faria Guterres Silveira,19,818.99,branca,masculino,3,pública,design,Rua Marechal Deodoro,565,Santo Amaro,São Paulo,SP,04738-900,10,1.0,"-46.6961782, -23.6408194",SANTO AMARO
+RA55000046,Vardinho Figueiredo Azenha Paz,19,1176.99,branca,masculino,3,pública,engenharia biomédica,Rua São Marcos,547,Chácara Gaivotas,São Paulo,SP,04849-314,9,0.6,"-46.6653668, -23.7370211",GRAJAU
+RA55000047,Ereneide Reino Negreiros Reino,19,839.99,branca,feminino,3,pública,administração,Rua H,539,Conjunto Residencial Alpes do Jaraguá,São Paulo,SP,05183-380,9,0.75,"-46.75329, -23.4466802",JARAGUA
+RA55000048,Elimar Caniça Borja,19,664.99,branca,feminino,3,pública,engenharia biomédica,Rua Dom João VI,942,Jardim Luzitânia,São Paulo,SP,04032-100,10,0.6,"-46.6599009, -23.5968186",MOEMA
+RA55000049,Dijalmir Freire Prada Santarém,19,1042.99,branca,masculino,3,pública,administração,Rua Marechal Marques Porto,22,Jardim Caguassu,São Paulo,SP,03906-020,10,0.75,"-46.5105097, -23.5800618",ARICANDUVA
+RA55000050,Nalison Fragoso,19,853.99,branca,masculino,3,pública,medicina,Rua Soldado Aristides Gouveia,76,Parque Novo Mundo,São Paulo,SP,02188-090,10,0.5,"-46.5686261, -23.5106898",VILA MARIA
+RA55000051,Eli Resende,19,908.99,branca,masculino,3,pública,engenharia biomédica,Rua Nossa Senhora da Piedade,327,Jardim Francisco Mendes,São Paulo,SP,02366-010,9,0.6,"-46.6925688, -23.6329488",SANTO AMARO
+RA55000052,Geisamara Machado Rego Varanda,19,629.99,branca,feminino,3,pública,direito,Rua Aracy de Almeida,997,Jardim Indaiá,São Paulo,SP,08143-010,10,0.6,"-46.3941612, -23.5157961",ITAIM PAULISTA
+RA55000053,Misleia Leiria Valim Pinheiro,19,925.99,branca,feminino,3,pública,design,Rua Pedro Doll,912,Santana,São Paulo,SP,02404-001,9,1.0,"-46.6314, -23.4902621",SANTANA
+RA55000054,Rariel Neves Tinoco,19,1110.99,branca,masculino,3,pública,filosofia,Avenida Sargento Geraldo Sant'Ana,512,Jardim Taquaral,São Paulo,SP,04674-903,9,1.0,"-46.68583839999999, -23.6636472",CAMPO GRANDE
+RA55000055,Erlane Borja,19,956.99,branca,feminino,3,pública,engenharia biomédica,Rua H,539,Conjunto Residencial Alpes do Jaraguá,São Paulo,SP,05183-380,10,0.6,"-46.75329, -23.4466802",JARAGUA
+RA55000056,Arquimino Bulhões Castilhos,19,623.99,branca,masculino,3,pública,design,Rua Marechal Silva Fonseca,104,Jardim Três Marias,São Paulo,SP,03676-030,9,1.0,"-46.4927623, -23.5171327",PONTE RASA
+RA55000057,Ronigleison Melgaço,19,978.99,branca,masculino,3,pública,design,Rua Marcos Liberi,843,Conjunto Residencial José Bonifácio,São Paulo,SP,08253-270,10,1.0,"-46.4419108, -23.5474235",JOSE BONIFACIO
+RA55000058,Adson Berenguer Fernandes,19,1004.99,preta,masculino,3,pública,design,Rua Major Baracca,906,Parque Edu Chaves,São Paulo,SP,02232-000,9,1.0,"-46.5621975, -23.4755526",JACANA
+RA55000059,Werton Milheiriço,19,914.99,branca,masculino,3,pública,engenharia biomédica,Rua Dom João VI,942,Jardim Luzitânia,São Paulo,SP,04032-100,9,0.6,"-46.6599009, -23.5968186",MOEMA
+RA55000060,Markson Madureira Cantanhede Vilar,19,1159.99,branca,masculino,3,pública,medicina,Rua Vinte e Quatro de Dezembro,633,Vila Dom Pedro II,São Paulo,SP,02241-050,10,0.5,"-46.609144, -23.4900396",TUCURUVI
+RA55000061,Gerson Covilhã,19,905.99,preta,masculino,3,pública,administração,Rua Marechal Malet,251,Parque da Vila Prudente,São Paulo,SP,03140-020,10,0.75,"-46.5794609, -23.5883275",VILA PRUDENTE
+RA55000062,Francislei Penteado,19,1085.99,branca,feminino,3,pública,engenharia biomédica,Rua Caetano de Moura,216,Vila Nina,São Paulo,SP,02833-060,10,0.6,"-46.6922537, -23.4782964",FREGUESIA DO O
+RA55000063,Jaina Pádua,19,1000.99,branca,feminino,3,pública,medicina,Rua João Pujol,954,Vila Dona Sara,São Paulo,SP,03471-020,9,0.5,"-46.5197302, -23.568542",ARICANDUVA
+RA55000064,Urubata Toscano Carvalhoso Nolasco,19,629.99,branca,masculino,3,pública,história,Rua Vandoma,788,Parque Cocaia,São Paulo,SP,04850-170,9,0.75,"-46.6784405, -23.7543455",GRAJAU
+RA55000065,Luceno Mansilha,19,703.99,branca,masculino,3,pública,história,Rua D,297,Jardim Mar Lune,São Paulo,SP,04874-190,10,0.75,"-46.6657058, -23.8211839",GRAJAU
+RA55000066,Nadjara Lucena Alvim Abelho,19,696.99,preta,feminino,3,pública,administração,Vila Marcolina,134,Parque Vitória,São Paulo,SP,02268-040,10,0.75,"-46.5942946, -23.4683586",TUCURUVI
+RA55000067,Mike Fidalgo Mexia,19,1169.99,branca,feminino,3,pública,medicina,Rua Rainha-do-Bosque,864,Vila Santa Inês,São Paulo,SP,03812-030,10,0.5,"-46.4662972, -23.4939114",VILA JACUI
+RA55000068,Vilk Abasto Cardim,19,892.99,branca,masculino,3,pública,medicina,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,10,0.5,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000069,Sofia Quintanilha,19,789.99,branca,feminino,3,pública,design,Rua Primeiro de Maio,294,Jardim Colibri,São Paulo,SP,04855-630,9,1.0,"-46.4577086, -23.4881746",VILA JACUI
+RA55000070,Aieda Jesus Neves Pinho,19,1135.99,branca,feminino,3,pública,ciência de dados,Avenida Marechal Tito,891,Jardim Silva Teles,São Paulo,SP,08160-495,10,0.8571428571428571,"-46.4371255, -23.4950325",SAO MIGUEL
+RA55000071,Ismario Liberato Marques Lagos,19,1008.99,preta,masculino,3,pública,história,Rua 23 de Novembro,929,Vila Progresso (Zona Leste),São Paulo,SP,08240-001,9,0.75,"-46.4446166, -23.5248726",SAO MIGUEL
+RA55000072,Regenildo Leão Parente,19,1138.99,branca,masculino,3,pública,história,Rua Ruiva,987,Brasilândia,São Paulo,SP,02844-110,9,0.75,"-46.6878464, -23.4695049",BRASILANDIA
+RA55000073,Franciele Úria Pessoa,19,650.99,preta,feminino,3,pública,filosofia,Rua Major João Nunes,800,Jardim São Paulo(Zona Norte),São Paulo,SP,02046-070,10,1.0,"-46.6109608, -23.4925579",VILA GUILHERME
+RA55000074,Wandeley Moreno Palos,19,682.99,branca,masculino,3,pública,ciência de dados,Rua Monsenhor Anacleto,13,Brás,São Paulo,SP,03003-020,10,0.8571428571428571,"-46.623174, -23.5466213",BRAS
+RA55000075,Ilzanete Coelho Olivares,19,935.99,branca,feminino,3,pública,história,Praça M'Boi,904,Butantã,São Paulo,SP,05511-030,10,0.75,"-46.751149, -23.5726334",RIO PEQUENO
+RA55000076,Arzelinda Cerveira Mondragão,19,673.99,branca,feminino,3,pública,design,Rua N,349,Jardim Brasília (Zona Norte),São Paulo,SP,02857-065,9,1.0,"-46.7073647, -23.4428259",BRASILANDIA
+RA55000077,Luziema Valente Quina Vasconcelos,19,984.99,branca,feminino,3,pública,design,Rua Pedro Barbosa,194,Jardim Marília,São Paulo,SP,03579-130,9,1.0,"-46.4977275, -23.5634666",CID LIDER
+RA55000078,Nagir Camargo Doutel Pescada,19,1024.99,branca,masculino,3,pública,história,Praça da Sé,871,Sé,São Paulo,SP,01001-901,9,0.75,"-46.6334257, -23.5492926",SE
+RA55000079,Shigeki Basílio,19,1072.99,branca,masculino,3,pública,direito,Rua Major Marcelino,634,Brás,São Paulo,SP,03025-020,9,0.6,"-46.6071823, -23.5326216",BELEM
+RA55000080,Gilcinei Coimbra,19,1114.99,branca,masculino,3,pública,história,Rua do Buruí,876,Parque Casa de Pedra,São Paulo,SP,02320-170,9,0.75,"-46.5953586, -23.4483439",TREMEMBE
+RA55000081,Gislaine Caldeira Lucas,19,1134.99,branca,feminino,3,pública,ciência da computação,Avenida Odila,792,Planalto Paulista,São Paulo,SP,04058-021,9,0.75,"-46.6456689, -23.6122115",SAUDE
+RA55000082,Luzielen Conceição Atilano,19,883.99,branca,feminino,3,pública,administração,Rua Marcos Lopes,456,Vila Nova Conceição,São Paulo,SP,04513-080,10,0.75,"-46.67151459999999, -23.5985126",MOEMA
+RA55000083,Gesilene Couceiro,19,878.99,branca,feminino,3,pública,história,Rua João Pires,702,Mooca,São Paulo,SP,03168-060,9,0.75,"-46.5909286, -23.5547767",MOOCA
+RA55000084,Claudenisia Xisto Caeiro,19,832.99,branca,feminino,3,pública,direito,Rua Marechal Deodoro,565,Santo Amaro,São Paulo,SP,04738-900,10,0.6,"-46.6961782, -23.6408194",SANTO AMARO
+RA55000085,Marilaine Ruas Sodré,19,1180.99,branca,feminino,3,pública,design,Rua Caetano Desco,948,Vila Baruel,São Paulo,SP,02523-080,9,1.0,"-46.6564448, -23.506089",CASA VERDE
+RA55000086,Orvina Moita Nóbrega,19,1194.99,branca,feminino,3,pública,história,Rua Barão de Suruí,910,Vila Congonhas,São Paulo,SP,04612-120,9,0.75,"-46.6630757, -23.6192325",CAMPO BELO
+RA55000087,Gleisson Barreira Avelar Zagalo,19,1042.99,branca,masculino,3,pública,história,Rua Sargento-Mor Carvalho,794,Cidade Ademar,São Paulo,SP,04405-080,10,0.75,"-46.6570139, -23.6670186",CID ADEMAR
+RA55000088,Nercila Botica Delgado,19,1183.99,branca,feminino,3,pública,engenharia biomédica,Rua Silva Pinto,123,Bom Retiro,São Paulo,SP,01126-010,9,0.6,"-46.6409844, -23.5293328",BOM RETIRO
+RA55000089,Evonio Ponte Mendonça Balsemão,19,1101.99,branca,masculino,3,pública,ciência da computação,Rua São Borja,704,Vila Gustavo,São Paulo,SP,02256-210,10,0.75,"-46.6352957, -23.6482644",JABAQUARA
+RA55000090,Janildo Mariz Belchiorinho Onofre,19,845.99,preta,masculino,3,pública,medicina,Praça da Sé,631,Sé,São Paulo,SP,01001-901,10,0.5,"-46.6345874, -23.5517285",SE
+RA55000091,Jemuel Ventura,19,914.99,preta,masculino,3,pública,filosofia,Rua Pedro Cubas,738,Piqueri,São Paulo,SP,02913-000,10,1.0,"-46.7142979, -23.5042735",PIRITUBA
+RA55000092,Terciane Rebimbas,19,874.99,branca,feminino,3,pública,medicina,Rua Nossa Senhora da Luz,782,Vila Gustavo,São Paulo,SP,02250-210,9,0.5,"-46.5965836, -23.4861243",TUCURUVI
+RA55000093,Jen Pimentel Bicalho,19,890.99,branca,masculino,3,pública,ciência da computação,Rua Vandoma,788,Parque Cocaia,São Paulo,SP,04850-170,9,0.75,"-46.6784405, -23.7543455",GRAJAU
+RA55000094,Jobert Garcia Leite,19,933.99,branca,masculino,3,pública,história,Rua João Gomes,306,Jardim Herculano,São Paulo,SP,04920-040,10,0.75,"-46.7570712, -23.6914395",JD ANGELA
+RA55000095,Tarita Tristão Amado Dorneles,19,1074.99,branca,feminino,3,pública,história,Rua 9 de Setembro,652,Chácara Gaivotas,São Paulo,SP,04849-333,9,0.75,"-46.661306, -23.7337253",GRAJAU
+RA55000096,Jodna Estrada Feira,19,1206.99,branca,feminino,3,pública,ciência de dados,Rua Nossa Senhora da Penha,823,Penha de França,São Paulo,SP,03632-060,10,0.8571428571428571,"-46.549434, -23.5284826",PENHA
+RA55000097,Sandeilson Paião Alcântara,19,987.99,branca,masculino,3,pública,ciência da computação,Rua Caetano Pinto,235,Brás,São Paulo,SP,03041-000,9,0.75,"-46.621499, -23.5481405",BRAS
+RA55000098,Shirleni Palha Farinha,19,685.99,branca,feminino,3,pública,história,Rua Flor de Maio,247,Parque das Flores,São Paulo,SP,08391-435,10,0.75,"-46.4444851, -23.642356",SAO RAFAEL
+RA55000099,Kaline Campos Barateiro,19,968.99,branca,feminino,3,pública,administração,Rua Rui Barbosa Lima,441,Vila Curuçá,São Paulo,SP,08030-730,10,0.75,"-46.4195526, -23.5049471",VILA CURUCA
+RA55000100,Jurez Pedroso,19,810.99,branca,masculino,3,pública,história,Praça M'Boi,654,Butantã,São Paulo,SP,05511-030,9,0.75,"-46.751149, -23.5726334",RIO PEQUENO
+RA55000101,Ketlin Ferrão,19,940.99,branca,feminino,3,pública,medicina,Rua Sargento-Mor Carvalho,794,Cidade Ademar,São Paulo,SP,04405-080,9,0.5,"-46.6570139, -23.6670186",CID ADEMAR
+RA55000102,Nazarina Mantas Franca Soeiro,19,781.99,branca,feminino,3,pública,filosofia,Praça Elfos,452,Jardim Marajoara,São Paulo,SP,04664-090,10,1.0,"-46.6853616, -23.6561107",CAMPO GRANDE
+RA55000103,Severio Rosmaninho Morão,19,815.99,preta,masculino,3,pública,ciência de dados,Rua Carapuruí,62,Alto da Lapa,São Paulo,SP,05059-050,9,0.8571428571428571,"-46.7111633, -23.532242",LAPA
+RA55000104,Roberti Veríssimo Quina,19,778.99,branca,masculino,3,pública,design,Avenida Nove de Julho,947,Jardim Paulista,São Paulo,SP,01406-100,10,1.0,"-46.64694240000001, -23.5521074",BELA VISTA
+RA55000105,Geni Bivar,19,747.99,branca,feminino,3,pública,ciência de dados,Rua Treze de Maio,917,Cantinho do Céu,São Paulo,SP,04849-650,9,0.8571428571428571,"-46.6573675, -23.7404567",GRAJAU
+RA55000106,Clercio Cerqueira Ouro,19,1162.99,branca,masculino,3,pública,história,Rua João Lima,912,Chácara Belenzinho,São Paulo,SP,03381-080,9,0.75,"-46.5280229, -23.5781294",VILA FORMOSA
+RA55000107,Valencia Calçada,19,663.99,branca,feminino,3,pública,história,Rua Nossa Senhora da Paz,485,Jardim Almeida,São Paulo,SP,04866-245,9,0.75,"-46.7266499, -23.8023856",PARELHEIROS
+RA55000108,Raineria Canhão Arantes,19,1121.99,preta,feminino,3,pública,ciência da computação,Viela Vinte e Sete de Setembro,710,Cidade Nova Heliópolis,São Paulo,SP,04235-090,10,0.75,"-46.5909673, -23.6114651",SACOMA
+RA55000109,Doroti Franqueira Caminha,19,611.99,branca,feminino,3,pública,engenharia biomédica,Rua Soneto de Agosto,641,Jardim Santa Lucrécia,São Paulo,SP,05185-430,10,0.6,"-46.7490884, -23.4395076",JARAGUA
+RA55000110,Henry Abranches Pereira,19,644.99,branca,masculino,3,pública,engenharia biomédica,Rua Pedro Voss,58,Vila Carrão,São Paulo,SP,03437-000,10,0.6,"-46.527327, -23.5550285",CARRAO
+RA55000111,Andremar Prates,19,823.99,branca,masculino,3,pública,direito,Rua Sargento Advíncola,568,Parque Mandaqui,São Paulo,SP,02418-130,10,0.6,"-46.6295874, -23.4694138",TUCURUVI
+RA55000112,Josoe Temes Caldas,19,1048.99,branca,masculino,3,pública,design,Rua Marcos Freire,579,Jardim Nova Conquista,São Paulo,SP,08346-580,9,1.0,"-46.4441347, -23.6189277",SAO RAFAEL
+RA55000113,Florisio Canário Queiroga Berenguer,19,651.99,branca,masculino,3,pública,medicina,Rua Soldado Gentil Guimarães,750,Parque Novo Mundo,São Paulo,SP,02144-010,9,0.5,"-46.5692414, -23.5036781",VILA MARIA
+RA55000114,Sedecias Negreiros Eanes Faro,19,985.99,branca,masculino,3,pública,história,Rua do Buruí,876,Parque Casa de Pedra,São Paulo,SP,02320-170,10,0.75,"-46.5953586, -23.4483439",TREMEMBE
+RA55000115,Neurizan Pinho Ramalho,19,960.99,branca,feminino,3,pública,filosofia,Rua Armando Barbosa,42,Jardim Santa Adélia,São Paulo,SP,03974-010,9,1.0,"-46.48491120000001, -23.6137719",SAO MATEUS
+RA55000116,Valdezita Covilhã,19,775.99,preta,feminino,3,pública,engenharia biomédica,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,9,0.6,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000117,Orvino Ulhoa Álvares,19,761.99,branca,masculino,3,pública,medicina,Rua Três de Maio,864,Vila Clementino,São Paulo,SP,04044-020,10,0.5,"-46.6420636, -23.6039906",SAUDE
+RA55000118,Willon Feitosa Alvarenga,19,1044.99,branca,masculino,3,pública,engenharia biomédica,Rua A,762,Jardim Santa Cruz (Sacomã),São Paulo,SP,04182-125,10,0.6,"-46.600155, -23.6419533",SACOMA
+RA55000119,Andison Cerqueira,19,1131.99,branca,masculino,3,pública,engenharia biomédica,Rua Nossa Senhora Aparecida,463,Jardim Elizabeth,São Paulo,SP,08320-800,10,0.6,"-46.4597396, -23.6352121",SAO RAFAEL
+RA55000120,Artila Gravato Garcez,19,1152.99,branca,feminino,3,pública,direito,Rua Major Boaventura,415,Parque Artur Alvim,São Paulo,SP,03569-030,9,0.6,"-46.4910479, -23.5423042",ARTUR ALVIM
+RA55000121,Regislene Trindade Damásio Saraiva,19,1134.99,branca,feminino,3,pública,design,Rua Major Boaventura,415,Parque Artur Alvim,São Paulo,SP,03569-030,10,1.0,"-46.4910479, -23.5423042",ARTUR ALVIM
+RA55000122,Delian Pimentel Veríssimo ,19,864.99,branca,masculino,3,pública,administração,Praça Duere,628,Vila Carrão,São Paulo,SP,03445-010,9,0.75,"-46.5312723, -23.5511329",CARRAO
+RA55000123,Valdoir Ribas Valverde Sítima,19,618.99,branca,masculino,3,pública,ciência da computação,Rua Capitão João Noronha,747,Parque Mandaqui,São Paulo,SP,02418-050,9,0.75,"-46.6291221, -23.471756",MANDAQUI
+RA55000124,Elves Cortesão,19,648.99,branca,masculino,3,pública,direito,Rua Onofre Pinto,15,Jardim Lajeado,São Paulo,SP,08441-211,9,0.6,"-46.4028941, -23.5327506",LAJEADO
+RA55000125,Martus Narvais,19,660.99,branca,masculino,3,pública,história,Rua Capitão Prudente,202,Pinheiros,São Paulo,SP,05422-050,9,0.75,"-46.6865828, -23.5679204",PINHEIROS
+RA55000126,Onesto Festas Lamego Viegas,19,928.99,branca,masculino,3,pública,direito,Rua João Pujol,954,Vila Dona Sara,São Paulo,SP,03471-020,10,0.6,"-46.5197302, -23.568542",ARICANDUVA
+RA55000127,Ruberci Gorjão Palha Esteves,19,615.99,preta,masculino,3,pública,história,Rua Dom Lino,945,Luz,São Paulo,SP,01103-070,10,0.75,"-46.628204, -23.5358517",BOM RETIRO
+RA55000128,Talina Sacramento Melgaço Rodrigues,19,780.99,branca,feminino,3,pública,filosofia,Rua Albina Barbosa,289,Aclimação,São Paulo,SP,01530-020,10,1.0,"-46.6268184, -23.5706022",LIBERDADE
+RA55000129,Reni Olivares,19,948.99,branca,feminino,3,pública,administração,Rua Rui Barbosa,229,Bela Vista,São Paulo,SP,01326-010,10,0.75,"-46.6452299, -23.5573897",BELA VISTA
+RA55000130,Eliel Torres Anes Valgueiro,19,952.99,branca,masculino,3,pública,medicina,Avenida Ceci,688,Planalto Paulista,São Paulo,SP,04065-004,10,0.5,"-46.6521425, -23.6156353",SAUDE
+RA55000131,Gilcilea Landim Couto,19,847.99,branca,feminino,3,pública,medicina,Rua São José,272,Chácara Gaivotas,São Paulo,SP,04849-316,9,0.5,"-46.6634943, -23.736651",GRAJAU
+RA55000132,Jussinei Queiroga Aquino,19,669.99,branca,masculino,3,pública,ciência da computação,Rua Quatro de Agosto,14,Saúde,São Paulo,SP,04053-060,9,0.75,"-46.6413512, -23.6146709",SAUDE
+RA55000133,Wasley Bragança Taborda,19,1790.98,preta,masculino,3,privada,filosofia,Rua São Jorge,214,Recanto Verde do Sol,São Paulo,SP,08382-117,10,1.0,"-46.4212861, -23.6144555",IGUATEMI
+RA55000134,John Morais Candal,19,1393.99,branca,masculino,3,pública,história,Rua Marcos Lopes,456,Vila Nova Conceição,São Paulo,SP,04513-080,10,0.75,"-46.67151459999999, -23.5985126",MOEMA
+RA55000135,Weligton Cavadas Viveiros,19,2220.98,branca,masculino,3,privada,ciência de dados,Rua Duque Costa,420,Vila Sofia,São Paulo,SP,04671-160,9,0.8571428571428571,"-46.6906946, -23.6587313",CAMPO GRANDE
+RA55000136,Diles Vilaverde,19,2063.98,branca,masculino,3,privada,história,Rua Pedro Doll,912,Santana,São Paulo,SP,02404-001,9,0.75,"-46.6314, -23.4902621",SANTANA
+RA55000137,Leiuson Da Costa Souto Robalinho,19,1436.99,preta,masculino,3,privada,ciência da computação,Rua Nove de Julho,677,Santo Amaro,São Paulo,SP,04739-900,10,0.75,"-46.6969284, -23.64617",SANTO AMARO
+RA55000138,Joseclaudio Quinteiro,19,2095.98,branca,masculino,3,privada,ciência de dados,Rua Major Sucupira,301,Vila Firmiano Pinto,São Paulo,SP,04124-050,10,0.8571428571428571,"-46.6208479, -23.5988349",CURSINO
+RA55000139,Sheila Mourão Mariz,19,1586.99,branca,feminino,3,privada,filosofia,Avenida Nove de Julho,947,Jardim Paulista,São Paulo,SP,01406-100,9,1.0,"-46.64694240000001, -23.5521074",BELA VISTA
+RA55000140,Emir Cascais,19,1975.98,branca,masculino,3,privada,filosofia,Rua Barão de Suruí,910,Vila Congonhas,São Paulo,SP,04612-120,9,1.0,"-46.6630757, -23.6192325",CAMPO BELO
+RA55000141,Mariniza Alpuim Lindim,19,1912.98,branca,feminino,3,privada,design,Rua Marechal Malet,251,Parque da Vila Prudente,São Paulo,SP,03140-020,9,1.0,"-46.5794609, -23.5883275",VILA PRUDENTE
+RA55000142,Daria Lessa Faia,19,2174.98,preta,feminino,3,pública,administração,Rua Trio Arquiduque,434,Jardim São Bernardo,São Paulo,SP,04844-520,10,0.75,"-46.7019491, -23.7590457",GRAJAU
+RA55000143,Reigiane Tavares,19,1292.99,branca,feminino,3,privada,administração,Rua São Bruno,741,Jardim São Bento,São Paulo,SP,02525-020,9,0.75,"-46.6471054, -23.5032003",CASA VERDE
+RA55000144,Derlis Macedo Amaro Cabreira,19,1574.99,branca,masculino,3,privada,história,Avenida Nove de Julho,568,Jardim Paulista,São Paulo,SP,01407-907,9,0.75,"-46.6438767, -23.5502206",REPUBLICA
+RA55000145,Generina Espargosa,19,1372.99,preta,feminino,3,privada,engenharia biomédica,Rua Pedro Barbosa,194,Jardim Marília,São Paulo,SP,03579-130,10,0.6,"-46.4977275, -23.5634666",CID LIDER
+RA55000146,Ericki Bouça Remígio Cabeça De Vaca,19,1598.99,branca,masculino,3,pública,ciência de dados,Rua Marechal Pimentel,204,Sacomã,São Paulo,SP,04248-100,10,0.8571428571428571,"-46.5964786, -23.6104991",SACOMA
+RA55000147,Gilseppe Alves,19,1631.99,branca,masculino,3,privada,administração,Avenida Duquesa de Goiás,792,Real Parque,São Paulo,SP,05686-900,9,0.75,"-46.7025865, -23.6146259",MORUMBI
+RA55000148,Clonice Vilaça,19,2212.98,branca,feminino,3,privada,medicina,Rua Rainha-do-Bosque,864,Vila Santa Inês,São Paulo,SP,03812-030,9,0.5,"-46.4662972, -23.4939114",VILA JACUI
+RA55000149,Silvio Monforte,19,1743.99,branca,masculino,3,pública,direito,Rua Major Sucupira,301,Vila Firmiano Pinto,São Paulo,SP,04124-050,10,0.6,"-46.6208479, -23.5988349",CURSINO
+RA55000150,Elizabeti Vieira,19,1276.99,branca,feminino,3,pública,filosofia,Rua Capitão João Carlos,28,Nossa Senhora do Ó,São Paulo,SP,02926-060,9,1.0,"-46.7022388, -23.4991737",FREGUESIA DO O
+RA55000151,Alsonia Janes Toste,19,2000.98,branca,feminino,3,privada,filosofia,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,8,1.0,"-46.4563377, -23.4870127",VILA JACUI
+RA55000152,Osvaldinei Infante Sarmento,19,1858.98,branca,masculino,3,privada,administração,Rua Ernani Pinto,803,Vila Maria Alta,São Paulo,SP,02128-020,7,0.75,"-46.5924098, -23.5019533",VILA MARIA
+RA55000153,Joseana Linhares,19,1406.99,branca,feminino,3,privada,administração,Rua São Luís,207,Vila Cosmopolita,São Paulo,SP,08421-030,8,0.75,"-46.4240129, -23.5566942",GUAIANASES
+RA55000154,Juscimara Vilalobos,19,1386.99,branca,feminino,3,privada,ciência da computação,Rua Mozart Pinto,985,Jardim Guarujá,São Paulo,SP,05877-280,6,0.75,"-46.7912418, -23.6915854",CAPAO REDONDO
+RA55000155,Laionel Medeiros Leme,19,1769.99,branca,masculino,3,privada,direito,Avenida Vinte e Quatro de Fevereiro,868,Vila Rui Barbosa,São Paulo,SP,03734-090,6,0.6,"-46.523475, -23.5106779",CANGAIBA
+RA55000156,Angela Mafra Palhares,19,2027.98,branca,feminino,3,privada,administração,Rua Silva Pinto,123,Bom Retiro,São Paulo,SP,01126-010,6,0.75,"-46.6409844, -23.5293328",BOM RETIRO
+RA55000157,Dorneval Batata,19,1291.99,branca,masculino,3,pública,direito,Rua Trio Arquiduque,434,Jardim São Bernardo,São Paulo,SP,04844-520,8,0.6,"-46.7019491, -23.7590457",GRAJAU
+RA55000158,Ethel Mansilha Alvarenga Tabanez,19,1716.99,branca,masculino,3,privada,medicina,Rua Marechal Mello Ararigbóia,289,Vila Francos,São Paulo,SP,02880-060,8,0.5,"-46.6744801, -23.4684542",BRASILANDIA
+RA55000159,Luane Rua,19,1743.99,branca,feminino,3,pública,design,Rua Marcos Lopes,456,Vila Nova Conceição,São Paulo,SP,04513-080,7,1.0,"-46.67151459999999, -23.5985126",MOEMA
+RA55000160,Sandrieli Medeiros Lindim Ferraz,19,1969.98,branca,feminino,3,privada,ciência da computação,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,7,0.75,"-46.4563377, -23.4870127",VILA JACUI
+RA55000161,Petronio Parente Casqueira,19,1598.99,branca,masculino,3,privada,direito,Praça Capri,573,Jardim Leonor Mendes de Barros,São Paulo,SP,02347-040,7,0.6,"-46.6110238, -23.463234",TREMEMBE
+RA55000162,Regivaldo Carneiro,19,2409.98,branca,masculino,3,privada,filosofia,Rua Xavier de Almeida,504,Ipiranga,São Paulo,SP,04211-001,8,1.0,"-46.6081309, -23.5904483",IPIRANGA
+RA55000163,Oliver Canedo Carvalhoso,19,2427.98,branca,masculino,3,privada,ciência da computação,Rua André de Almeida,565,Jardim Cinco de Julho,São Paulo,SP,03953-085,7,0.75,"-46.4876002, -23.590251",SAO MATEUS
+RA55000164,Joarino Sardo Xavier Brasil,19,2144.98,branca,masculino,3,privada,história,Avenida Ceci,688,Planalto Paulista,São Paulo,SP,04065-004,8,0.75,"-46.6521425, -23.6156353",SAUDE
+RA55000165,Teonildo Pureza,19,2162.98,preta,masculino,3,privada,história,Rua João Lima,912,Chácara Belenzinho,São Paulo,SP,03381-080,6,0.75,"-46.5280229, -23.5781294",VILA FORMOSA
+RA55000166,Duani Pádua Valido,19,1299.99,branca,feminino,3,pública,administração,Rua Vinte e Quatro de Dezembro,307,Vila Dom Pedro II,São Paulo,SP,02241-050,7,0.75,"-46.6084829, -23.4900508",TUCURUVI
+RA55000167,Rosilandia Rua,19,1966.98,branca,feminino,3,privada,história,Rua Rui Boto de Sousa,425,Jardim Aracati,São Paulo,SP,04949-020,7,0.75,"-46.7670013, -23.7192588",JD ANGELA
+RA55000168,Wilfrid Cedraz,19,1943.98,preta,masculino,3,pública,design,Rua Pedro Roget,841,Jardim Vivan,São Paulo,SP,02993-160,6,1.0,"-46.7326427, -23.4547192",JARAGUA
+RA55000169,Ezenilson Temes Sousa,19,2227.98,branca,masculino,3,privada,história,Rua Dezenove de Julho,875,Jardim São José (Zona Norte),São Paulo,SP,02971-040,6,0.75,"-46.7110407, -23.4863841",PIRITUBA
+RA55000170,Guilherme Macena,19,2015.98,branca,masculino,3,privada,design,Rua Peruíbe,864,Jardim Europa,São Paulo,SP,01448-090,6,1.0,"-46.6835599, -23.5811095",ITAIM BIBI
+RA55000171,Neurenice Caires,19,1306.99,branca,feminino,3,privada,ciência de dados,Rua São Marcos,547,Chácara Gaivotas,São Paulo,SP,04849-314,8,0.8571428571428571,"-46.6653668, -23.7370211",GRAJAU
+RA55000172,Percival Afonso Onofre,19,1232.99,branca,masculino,3,privada,design,Rua Rui Barbosa,229,Bela Vista,São Paulo,SP,01326-010,6,1.0,"-46.6452299, -23.5573897",BELA VISTA
+RA55000173,Elimar Vinhas,19,1821.98,preta,masculino,3,privada,filosofia,Rua Marechal Silva Fonseca,104,Jardim Três Marias,São Paulo,SP,03676-030,6,1.0,"-46.4927623, -23.5171327",PONTE RASA
+RA55000174,Gelcon Cotrim Ferraz Salvado,19,1963.98,branca,masculino,3,privada,ciência de dados,Rua Diogo Barbosa,435,Vila Marari,São Paulo,SP,04403-210,7,0.8571428571428571,"-46.6631442, -23.6751645",CID ADEMAR
+RA55000175,Katiusse Caetano,19,1647.99,branca,feminino,3,privada,filosofia,Rua José de Almeida,979,Vila Medeiros,São Paulo,SP,02204-001,8,1.0,"-46.59184579999999, -23.4867237",VILA MEDEIROS
+RA55000176,Valderlina Sobreira Valido,19,2227.98,branca,feminino,3,privada,filosofia,Rua André de Almeida,406,Cidade São Mateus,São Paulo,SP,03959-090,6,1.0,"-46.488598, -23.5894279",SAO MATEUS
+RA55000177,Tais Rangel Vasques Simões,19,1276.99,branca,feminino,3,privada,administração,Rua Albina Barbosa,289,Aclimação,São Paulo,SP,01530-020,6,0.75,"-46.6268184, -23.5706022",LIBERDADE
+RA55000178,Atenildes Bettencourt Bezerra Pádua,19,1387.99,branca,feminino,3,privada,administração,Rua Xavier de Almeida,504,Ipiranga,São Paulo,SP,04211-001,8,0.75,"-46.6081309, -23.5904483",IPIRANGA
+RA55000179,Elivone Serpa Vital Anes,20,1714.43,preta,feminino,4,privada,administração,Rua Sete de Abril,277,Parque Primavera,São Paulo,SP,04467-285,7,1.0,"-46.6491856, -23.6920574",PEDREIRA
+RA55000180,Jadiel Quinterno Vale Veiga,20,1616.43,branca,masculino,4,privada,ciência da computação,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,7,1.0,"-46.4563377, -23.4870127",VILA JACUI
+RA55000181,Saverio Frota Urias,20,1726.43,branca,masculino,4,privada,filosofia,Rua Quatro de Agosto,14,Saúde,São Paulo,SP,04053-060,6,1.3333333333333333,"-46.6413512, -23.6146709",SAUDE
+RA55000182,Joelsio Espírito Santo Quinteiro Ferraz,20,2437.43,preta,masculino,4,privada,ciência da computação,Rua Nossa Senhora da Penha,823,Penha de França,São Paulo,SP,03632-060,7,1.0,"-46.549434, -23.5284826",PENHA
+RA55000183,Joiciane Casalinho Quadros Valente,20,1945.43,branca,feminino,4,privada,administração,Rua Nossa Senhora Aparecida,347,Jardim Felicidade (Zona Norte),São Paulo,SP,02326-105,6,1.0,"-46.5768098, -23.4440407",JACANA
+RA55000184,Damasia Picanço Damasceno,20,2075.43,branca,feminino,4,privada,filosofia,Avenida Agami,715,Moema,São Paulo,SP,04522-001,7,1.3333333333333333,"-46.6597619, -23.6008414",MOEMA
+RA55000185,Evanice Mainha Veiga Pais,20,1797.43,branca,feminino,4,privada,engenharia biomédica,Rua Dom Pedro,498,Jardim Apurá,São Paulo,SP,04470-037,7,0.8,"-46.6613435, -23.7409979",GRAJAU
+RA55000186,Isoldi Charneca Boaventura Pederneiras,20,1340.44,branca,masculino,4,pública,medicina,Rua André de Almeida,410,Cidade São Mateus,São Paulo,SP,03950-000,7,0.6666666666666666,"-46.4885923, -23.5894345",SAO MATEUS
+RA55000187,Genisvan Luz Azenha,20,2026.43,branca,masculino,4,pública,filosofia,Rua Pedro Doll,676,Santana,São Paulo,SP,02404-001,7,1.3333333333333333,"-46.6314, -23.4902621",SANTANA
+RA55000188,Jurandina Veiga Mariz Cachoeira,20,1418.44,branca,feminino,4,privada,direito,Praça Capri,849,Jardim Leonor Mendes de Barros,São Paulo,SP,02347-040,6,0.8,"-46.6110238, -23.463234",TREMEMBE
+RA55000189,Suzelaine Mirandela Bingre,20,1976.43,branca,feminino,4,privada,ciência da computação,Rua do Buruí,876,Parque Casa de Pedra,São Paulo,SP,02320-170,6,1.0,"-46.5953586, -23.4483439",TREMEMBE
+RA55000190,Gesselma Barra,20,1780.43,preta,feminino,4,privada,administração,Rua 23 de Novembro,929,Vila Progresso (Zona Leste),São Paulo,SP,08240-001,7,1.0,"-46.4446166, -23.5248726",SAO MIGUEL
+RA55000191,Joida Veleda Branco,20,2070.43,branca,feminino,4,privada,ciência de dados,Praça Gute,947,Vila Mariana,São Paulo,SP,04118-110,7,1.1428571428571428,"-46.6289013, -23.5953922",VILA MARIANA
+RA55000192,Jasciane Brião Pestana,20,1326.44,branca,feminino,4,privada,história,Rua Vale Maior,533,Jardim Miriam,São Paulo,SP,04417-040,6,1.0,"-46.6330779, -23.6826318",CID ADEMAR
+RA55000193,Vilena Milheirão,20,2160.43,branca,feminino,4,pública,medicina,Rua Caetano Augusto,468,Mooca,São Paulo,SP,03190-070,6,0.6666666666666666,"-46.5722877, -23.5638971",AGUA RASA
+RA55000194,Elielze Castilho Hernandes Reis,20,1914.43,branca,feminino,4,pública,administração,Rua Rosa de Nossa Senhora,73,Vila Reis,São Paulo,SP,08040-400,8,1.0,"-46.4502074, -23.50849",VILA JACUI
+RA55000195,Eldon Seixas Cardim,20,1298.44,branca,masculino,4,privada,história,Rua Silva Pinto,972,Bom Retiro,São Paulo,SP,01126-010,7,1.0,"-46.6400348, -23.5290012",BOM RETIRO
+RA55000196,Rochele Damásio Cartaxo,20,1789.43,branca,feminino,4,privada,ciência de dados,Rua João Pires,702,Mooca,São Paulo,SP,03168-060,7,1.1428571428571428,"-46.5909286, -23.5547767",MOOCA
+RA55000197,Julieni Macedo Baía,20,1729.43,branca,feminino,4,pública,filosofia,Rua Marechal Silva Fonseca,104,Jardim Três Marias,São Paulo,SP,03676-030,6,1.3333333333333333,"-46.4927623, -23.5171327",PONTE RASA
+RA55000198,Camila Castilhos Jordão Cabral,20,2026.43,preta,feminino,4,pública,filosofia,Rua Pedro Bruno,172,Butantã,São Paulo,SP,05506-010,6,1.3333333333333333,"-46.7094469, -23.5627911",BUTANTA
+RA55000199,Virgilina Noite Bentes,20,2171.43,branca,feminino,4,privada,medicina,Avenida Onze de Junho,167,Vila Clementino,São Paulo,SP,04041-000,7,0.6666666666666666,"-46.63833409999999, -23.6017919",SAUDE
+RA55000200,Walesk Canto Salomão Albuquerque,20,2341.43,branca,feminino,4,privada,ciência de dados,Rua Rafael Barbosa,976,Jardim Maria Luiza,São Paulo,SP,05371-080,8,1.1428571428571428,"-46.7558298, -23.5829115",RIO PEQUENO
+RA55000201,Gladestone Sá,20,1573.43,branca,masculino,4,pública,ciência de dados,Praça Aramã,946,Jardim Nordeste,São Paulo,SP,03691-160,6,1.1428571428571428,"-46.486362, -23.5320195",ARTUR ALVIM
+RA55000202,Eudio Vargas Coimbra Queiroga,20,1244.44,branca,masculino,4,privada,medicina,Rua Vandoma,788,Parque Cocaia,São Paulo,SP,04850-170,7,0.6666666666666666,"-46.6784405, -23.7543455",GRAJAU
+RA55000203,Arna Basílio Velasques,20,1836.43,branca,feminino,4,privada,engenharia biomédica,Rua Monsenhor Anacleto,13,Brás,São Paulo,SP,03003-020,6,0.8,"-46.623174, -23.5466213",BRAS
+RA55000204,Eriadina Durão Teodoro,20,1438.44,branca,feminino,4,privada,filosofia,Rua Major Baracca,906,Parque Edu Chaves,São Paulo,SP,02232-000,7,1.3333333333333333,"-46.5621975, -23.4755526",JACANA
+RA55000205,Mailza Rebocho Macena,20,2058.43,branca,feminino,4,privada,filosofia,Travessa Dezoito de Dezembro,659,Vila Tolstoi,São Paulo,SP,03269-035,8,1.3333333333333333,"-46.5237118, -23.6032076",SAPOPEMBA
+RA55000206,Rubia Torres Semedo,20,1246.44,branca,feminino,4,privada,filosofia,Rua Marconi,585,Centro,São Paulo,SP,01047-910,6,1.3333333333333333,"-46.6404438, -23.5456485",REPUBLICA
+RA55000207,Emory Frias,20,1607.43,preta,masculino,4,privada,administração,Rua Dezenove de Julho,875,Jardim São José (Zona Norte),São Paulo,SP,02971-040,8,1.0,"-46.7110407, -23.4863841",PIRITUBA
+RA55000208,Edezilda Bilhalva,20,1825.43,branca,feminino,4,privada,engenharia biomédica,Avenida Nove de Julho,568,Jardim Paulista,São Paulo,SP,01407-907,6,0.8,"-46.6438767, -23.5502206",REPUBLICA
+RA55000209,Orismar Jobim,20,1827.43,branca,masculino,4,pública,design,Rua Treze de Agosto,881,Vila União (Zona Leste),São Paulo,SP,03920-070,7,1.3333333333333333,"-46.5206946, -23.597979",SAPOPEMBA
+RA55000210,Adania Torreiro Santarém Bugalho,20,2223.43,branca,masculino,4,privada,administração,Rua São Pedro,208,Recanto Verde do Sol,São Paulo,SP,08382-110,8,1.0,"-46.4204982, -23.6161821",IGUATEMI
+RA55000211,Leidson Caniça Beiriz Valadim,20,1698.43,branca,masculino,4,privada,filosofia,Rua São João,847,Jardim Nova Conquista,São Paulo,SP,08346-405,7,1.3333333333333333,"-46.4484178, -23.6281711",SAO RAFAEL
+RA55000212,Clairson Abasto Talhão,20,1331.44,branca,masculino,4,privada,medicina,Rua Nove de Julho,677,Santo Amaro,São Paulo,SP,04739-900,8,0.6666666666666666,"-46.6969284, -23.64617",SANTO AMARO
+RA55000213,Dilnei Hipólito Barata,20,2229.43,branca,masculino,4,privada,filosofia,Rua Acuruí,534,Vila Formosa,São Paulo,SP,03355-000,8,1.3333333333333333,"-46.5530706, -23.5606342",VILA FORMOSA
+RA55000214,Licimara Carrasco Malta Lamego,20,1350.44,branca,feminino,4,privada,medicina,Rua Piruini,530,Jardim Jaú (Zona Leste),São Paulo,SP,03710-110,7,0.6666666666666666,"-46.5496027, -23.5111231",PENHA
+RA55000215,Merice Mangueira,20,2356.43,preta,feminino,4,pública,direito,Rua Sargento Olício Alves,48,Vila Campo Grande,São Paulo,SP,04455-180,7,0.8,"-46.6806318, -23.6800887",CAMPO GRANDE
+RA55000216,Alvarito Fitas,20,1750.43,branca,masculino,4,privada,filosofia,Rua Sargento-Mor Carvalho,794,Cidade Ademar,São Paulo,SP,04405-080,6,1.3333333333333333,"-46.6570139, -23.6670186",CID ADEMAR
+RA55000217,Shara Norões Ninharelhos Quintão,20,1580.43,branca,feminino,4,privada,administração,Rua Soldado Sebastião Felício,171,Parque Novo Mundo,São Paulo,SP,02144-070,8,1.0,"-46.570982, -23.5044895",VILA MARIA
+RA55000218,Sadia Vilante Narvais,20,1342.44,branca,feminino,4,pública,administração,Praça Félix,787,Vila Sílvia,São Paulo,SP,03820-210,7,1.0,"-46.5024938, -23.4983568",CANGAIBA
+RA55000219,Neif Marreiro,20,1823.43,branca,masculino,4,pública,ciência da computação,Rua Dom Aguirre,13,Vila Sofia,São Paulo,SP,04671-245,7,1.0,"-46.6858277, -23.6599591",CAMPO GRANDE
+RA55000220,Amin Sobral Fortunato Frota,20,1312.44,branca,masculino,4,privada,engenharia biomédica,Rua Dom Lino,945,Luz,São Paulo,SP,01103-070,8,0.8,"-46.628204, -23.5358517",BOM RETIRO
+RA55000221,Isaques Eanes,20,1280.44,branca,masculino,4,privada,direito,Rua Primeiro de Janeiro,706,Vila Clementino,São Paulo,SP,04044-060,8,0.8,"-46.6399401, -23.6040144",SAUDE
+RA55000222,Marileda Pederneiras,20,2405.43,branca,feminino,4,privada,administração,Praça Sete de Fevereiro,594,Vila Formosa,São Paulo,SP,03358-020,8,1.0,"-46.5514324, -23.5637006",VILA FORMOSA
+RA55000223,Ulisis Anlicoara Carvalhal Padilha,20,2231.43,branca,masculino,4,pública,história,Avenida Ceci,688,Planalto Paulista,São Paulo,SP,04065-004,6,1.0,"-46.6521425, -23.6156353",SAUDE
+RA55000224,Gleison Gil Medina,20,2083.43,preta,masculino,4,privada,história,Praça Guarus,280,Parque do Lago,São Paulo,SP,04944-160,8,1.0,"-46.7756636, -23.7103103",JD ANGELA
+RA55000225,Celso Coelho,20,1699.43,branca,masculino,4,privada,administração,Rua Capitão João Carlos,28,Nossa Senhora do Ó,São Paulo,SP,02926-060,7,1.0,"-46.7022388, -23.4991737",FREGUESIA DO O
+RA55000226,Tabata Valgueiro Jamandas,20,1963.43,branca,feminino,4,privada,história,Rua Vinte e Oito de Setembro,136,Vila Dom Pedro I,São Paulo,SP,04267-000,8,1.0,"-46.6112781, -23.5942204",IPIRANGA
+RA55000227,Elzanira Noite Franca,20,1560.43,branca,feminino,4,privada,filosofia,Rua Dez de Julho,594,Cidade Ademar,São Paulo,SP,04404-000,7,1.3333333333333333,"-46.6585678, -23.6659976",CID ADEMAR
+RA55000228,Adagilson Malheiro Frajuca,20,1589.43,branca,masculino,4,privada,direito,Rua Sargento Jorge Monçores,819,Conjunto Habitacional Marechal Mascarenhas de Morais,São Paulo,SP,03977-320,6,0.8,"-46.4952439, -23.6177645",SAPOPEMBA
+RA55000229,Yael Borja Doutis,20,1626.43,branca,masculino,4,privada,ciência da computação,Avenida Onze de Junho,167,Vila Clementino,São Paulo,SP,04041-000,6,1.0,"-46.63833409999999, -23.6017919",SAUDE
+RA55000230,Dasy Conde Redondo Cortesão,20,2114.43,branca,feminino,4,privada,direito,Rua Treze de Maio,563,Bela Vista,São Paulo,SP,01327-900,6,0.8,"-46.646284, -23.5580605",BELA VISTA
+RA55000231,Sterfany Moutinho Lisboa,20,1367.44,branca,feminino,4,privada,administração,Rua João Canzi,697,Jardim Patente,São Paulo,SP,04243-090,8,1.0,"-46.5872923, -23.6255862",SACOMA
+RA55000232,Leonor Mamouros,20,1652.43,preta,feminino,4,pública,administração,Rua Emílio Barbosa,875,Vila Prudente,São Paulo,SP,03135-040,8,1.0,"-46.5793911, -23.5755966",AGUA RASA
+RA55000233,Madiane Caminha,20,1454.43,branca,feminino,4,privada,ciência de dados,Rua Marcos Freire,579,Jardim Nova Conquista,São Paulo,SP,08346-580,8,1.1428571428571428,"-46.4441347, -23.6189277",SAO RAFAEL
+RA55000234,Tani Filipe Garrau,20,1232.44,branca,feminino,4,privada,administração,Rua Dias Barbosa,969,Jardim São Paulo(Zona Leste),São Paulo,SP,08461-540,7,1.0,"-46.4017851, -23.5635471",GUAIANASES
+RA55000235,Nariele Godoi Vilalobos,20,1349.44,branca,feminino,4,pública,medicina,Rua Diogo Barbosa,435,Vila Marari,São Paulo,SP,04403-210,6,0.6666666666666666,"-46.6631442, -23.6751645",CID ADEMAR
+RA55000236,Azelina Olivares,20,1957.43,branca,feminino,4,privada,história,Rua São Marcos,547,Chácara Gaivotas,São Paulo,SP,04849-314,7,1.0,"-46.6653668, -23.7370211",GRAJAU
+RA55000237,Erinaldo Velasques,20,1536.43,branca,masculino,4,privada,administração,Rua Sete de Abril,772,Centro,São Paulo,SP,01044-907,7,1.0,"-46.6424444, -23.5443275",REPUBLICA
+RA55000238,Irvanio Toscano Quirino Botelho,20,1992.43,preta,masculino,4,pública,filosofia,Rua Quinze de Novembro,746,Centro,São Paulo,SP,01013-907,7,1.3333333333333333,"-46.6342173, -23.5475305",SE
+RA55000239,Yoshiko Gravato,20,2250.43,preta,feminino,4,pública,direito,Rua Sargento Jorge Monçores,819,Conjunto Habitacional Marechal Mascarenhas de Morais,São Paulo,SP,03977-320,8,0.8,"-46.4952439, -23.6177645",SAPOPEMBA
+RA55000240,Hernes Moreira Lalanda,20,2386.43,branca,masculino,4,pública,design,Rua Flor de Maio,247,Parque das Flores,São Paulo,SP,08391-435,6,1.3333333333333333,"-46.4444851, -23.642356",SAO RAFAEL
+RA55000241,Raian Vides,20,1227.44,preta,masculino,4,pública,história,Praça Gute,947,Vila Mariana,São Paulo,SP,04118-110,8,1.0,"-46.6289013, -23.5953922",VILA MARIANA
+RA55000242,Genildo Tavares,20,1526.43,branca,masculino,4,privada,direito,Rua Sargento Agostinho Ferreira,927,Vila Maria,São Paulo,SP,02129-001,7,0.8,"-46.58596410000001, -23.5038666",VILA MARIA
+RA55000243,Linek Rodovalho Lousã,20,1860.43,preta,masculino,4,privada,administração,Rua Pedro Doll,676,Santana,São Paulo,SP,02404-001,7,1.0,"-46.6314, -23.4902621",SANTANA
+RA55000244,Valderlandia Alvarenga,20,2089.43,branca,feminino,4,privada,direito,Rua Silva Pinto,972,Bom Retiro,São Paulo,SP,01126-010,6,0.8,"-46.6400348, -23.5290012",BOM RETIRO
+RA55000245,Germana Morgado Cerqueira Temes,20,2271.43,branca,feminino,4,privada,ciência da computação,Rua 5 de Outubro,522,Chácara Gaivotas,São Paulo,SP,04849-309,6,1.0,"-46.6641055, -23.739427",GRAJAU
+RA55000246,Jetro Bilhalva Redondo,20,1350.44,branca,masculino,4,privada,história,Rua Monsenhor Salim,959,Itaim Paulista,São Paulo,SP,08111-180,7,1.0,"-46.3795467, -23.4951311",ITAIM PAULISTA
+RA55000247,Clauton Fiúza Vilarinho Sabrosa,20,1395.44,branca,masculino,4,privada,administração,Praça Guarus,280,Parque do Lago,São Paulo,SP,04944-160,7,1.0,"-46.7756636, -23.7103103",JD ANGELA
+RA55000248,Luzimario Mesquita Faleiro Linhares,20,1492.43,branca,masculino,4,privada,ciência de dados,Rua Capitão Salomão,840,Centro,São Paulo,SP,01034-020,8,1.1428571428571428,"-46.6369455, -23.5429693",REPUBLICA
+RA55000249,Melki Sobral,20,2172.43,branca,masculino,4,privada,história,Rua Rosa de Nossa Senhora,913,Vila Reis,São Paulo,SP,08040-400,6,1.0,"-46.450615, -23.5085513",VILA JACUI
+RA55000250,Ivanilza Águeda Sampaio Capucho,20,2329.43,branca,feminino,4,privada,administração,Rua Primeiro de Maio,149,Jardim São Francisco,São Paulo,SP,08390-263,6,1.0,"-46.4498428, -23.626695",SAO RAFAEL
+RA55000251,Eberti Ferrão,20,1718.43,preta,masculino,4,privada,história,Avenida Sargento Geraldo Sant'Ana,512,Jardim Taquaral,São Paulo,SP,04674-903,8,1.0,"-46.68583839999999, -23.6636472",CAMPO GRANDE
+RA55000252,Zenito Cantanhede,20,2107.43,branca,masculino,4,privada,história,Rua Vale Maior,533,Jardim Miriam,São Paulo,SP,04417-040,6,1.0,"-46.6330779, -23.6826318",CID ADEMAR
+RA55000253,Roneide Fiães Garcia,20,2235.43,branca,feminino,4,privada,medicina,Rua Major Dantas Cortez,683,Vila Gustavo,São Paulo,SP,02206-001,7,0.6666666666666666,"-46.594991, -23.483777",TUCURUVI
+RA55000254,Elinaria Rolim Porciúncula,20,1790.43,preta,feminino,4,pública,design,Rua Flor de Abril,918,Jardim Peri,São Paulo,SP,02651-140,7,1.3333333333333333,"-46.6575641, -23.4601589",CACHOEIRINHA
+RA55000255,Islei Rodovalho Muniz,20,1649.43,branca,feminino,4,privada,filosofia,Rua Marechal Malet,251,Parque da Vila Prudente,São Paulo,SP,03140-020,7,1.3333333333333333,"-46.5794609, -23.5883275",VILA PRUDENTE
+RA55000256,Alicson Leite Santiago Seixas,20,1837.43,branca,masculino,4,privada,ciência de dados,Rua Nossa Senhora Aparecida,347,Jardim Felicidade (Zona Norte),São Paulo,SP,02326-105,8,1.1428571428571428,"-46.5768098, -23.4440407",JACANA
+RA55000257,Rilari Delgado Roriz Carvalheira,20,1920.43,branca,feminino,4,pública,ciência da computação,Rua Nove de Julho,501,Santo Amaro,São Paulo,SP,04739-900,7,1.0,"-46.6971311, -23.6462365",SANTO AMARO
+RA55000258,Cinesio Barreto Quental Gusmão,20,1746.43,branca,masculino,4,privada,engenharia biomédica,Rua Caetano Mero,60,Vila Constança,São Paulo,SP,04658-080,7,0.8,"-46.6654077, -23.672821",CID ADEMAR
+RA55000259,Waltemar Canela Freitas,20,1600.43,preta,masculino,4,privada,filosofia,Rua Nove de Julho,501,Santo Amaro,São Paulo,SP,04739-900,8,1.3333333333333333,"-46.6971311, -23.6462365",SANTO AMARO
+RA55000260,Erich Vilante Bandeira,20,1634.43,branca,masculino,4,privada,design,Rua Major Marcelino,634,Brás,São Paulo,SP,03025-020,6,1.3333333333333333,"-46.6071823, -23.5326216",BELEM
+RA55000261,Eliede Urias Cedro Santiago,20,1277.44,branca,masculino,4,privada,medicina,Rua Piruini,530,Jardim Jaú (Zona Leste),São Paulo,SP,03710-110,8,0.6666666666666666,"-46.5496027, -23.5111231",PENHA
+RA55000262,Sinesio Parafita Negreiros Alcaide,20,1984.43,branca,masculino,4,pública,medicina,Rua Monsenhor Anacleto,754,Brás,São Paulo,SP,03003-020,8,0.6666666666666666,"-46.6232286, -23.5464915",BRAS
+RA55000263,Elifas Pais Ávila Grangeia,20,1739.43,branca,masculino,4,privada,ciência da computação,Avenida Dois,60,Colônia (Zona Leste),São Paulo,SP,08260-430,7,1.0,"-46.4213694, -23.5931085",IGUATEMI
+RA55000264,Tone Sabrosa Fraga,20,1414.44,branca,masculino,4,privada,design,Rua Batista Caetano,419,Aclimação,São Paulo,SP,04108-130,7,1.3333333333333333,"-46.6286718, -23.5813875",VILA MARIANA
+RA55000265,Clemes Da Costa,20,2101.43,branca,masculino,4,privada,medicina,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,8,0.6666666666666666,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000266,Maellen Quinta Cordeiro,20,1319.44,preta,feminino,4,privada,ciência de dados,Rua Marco Martini,861,Jardim Dona Deolinda,São Paulo,SP,08032-580,7,1.1428571428571428,"-46.4287889, -23.5202641",LAJEADO
+RA55000267,Josefe Anjos Regueira,20,2042.43,branca,masculino,4,privada,ciência da computação,Rua Caetano do Amaral,274,Vila Cruzeiro,São Paulo,SP,03382-130,7,1.0,"-46.5303, -23.579381",VILA FORMOSA
+RA55000268,Elite Uchoa,20,2313.43,branca,feminino,4,privada,direito,Avenida Onze de Junho,571,Vila Clementino,São Paulo,SP,04041-002,7,0.8,"-46.6423513, -23.6017143",SAUDE
+RA55000269,Clerisvalda Pedro Guterres Ferraço,20,1979.43,branca,feminino,4,pública,administração,Travessa Dezoito de Dezembro,659,Vila Tolstoi,São Paulo,SP,03269-035,8,1.0,"-46.5237118, -23.6032076",SAPOPEMBA
+RA55000270,Mauriso Monteiro Sabala Manso,20,2330.43,branca,masculino,4,privada,ciência da computação,Rua Major Gomes Ribeiro,743,Vila Santa Teresa (Zona Leste),São Paulo,SP,03565-020,8,1.0,"-46.4960198, -23.5382945",ARTUR ALVIM
+RA55000271,Valdionir Ferraço Vilas Boas,20,2008.43,branca,masculino,4,privada,engenharia biomédica,Praça Gute,947,Vila Mariana,São Paulo,SP,04118-110,7,0.8,"-46.6289013, -23.5953922",VILA MARIANA
+RA55000272,Odalirio Talhão,20,2279.43,preta,masculino,4,privada,ciência de dados,Rua Marino Pinto,894,Jardim Palmares (Zona Sul),São Paulo,SP,04457-090,7,1.1428571428571428,"-46.6782738, -23.6893317",CAMPO GRANDE
+RA55000273,Angel Cordeiro Prudente Cedro,20,1475.43,branca,masculino,4,pública,medicina,Rua Rio Maruí,679,Itaquera,São Paulo,SP,08215-640,7,0.6666666666666666,"-46.4437759, -23.5492029",JOSE BONIFACIO
+RA55000274,Elizate Maior Rosmaninho,20,2403.43,branca,feminino,4,privada,administração,Rua Rainha-do-Bosque,864,Vila Santa Inês,São Paulo,SP,03812-030,6,1.0,"-46.4662972, -23.4939114",VILA JACUI
+RA55000275,Rosembergue Pequeno Amorim,20,1605.43,branca,masculino,4,pública,filosofia,Rua André de Almeida,410,Cidade São Mateus,São Paulo,SP,03950-000,8,1.3333333333333333,"-46.4885923, -23.5894345",SAO MATEUS
+RA55000276,Delba Miranda Gorjão,20,1664.43,branca,feminino,4,pública,ciência da computação,Travessa Sete de Setembro,449,Recanto dos Humildes,São Paulo,SP,05209-550,8,1.0,"-46.75037930000001, -23.4129273",PERUS
+RA55000277,Regilma Vilalobos Pires Palma,20,2366.43,branca,feminino,4,pública,engenharia biomédica,Rua Marechal Pimentel,204,Sacomã,São Paulo,SP,04248-100,6,0.8,"-46.5964786, -23.6104991",SACOMA
+RA55000278,Shinaider Veleda Mascarenhas,20,2004.43,branca,masculino,4,privada,administração,Rua Silva Pinto,972,Bom Retiro,São Paulo,SP,01126-010,7,1.0,"-46.6400348, -23.5290012",BOM RETIRO
+RA55000279,Orjana Cascais Pardo Borba,20,2137.43,branca,feminino,4,privada,direito,Rua Sargento Agostinho Ferreira,927,Vila Maria,São Paulo,SP,02129-001,7,0.8,"-46.58596410000001, -23.5038666",VILA MARIA
+RA55000280,Adanir Mondragão,20,2065.43,branca,feminino,4,privada,direito,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,6,0.8,"-46.4563377, -23.4870127",VILA JACUI
+RA55000281,Osvaldenir Úria,20,2197.43,branca,masculino,4,privada,medicina,Rua Manuel Pinto,121,Jardim Eliza,São Paulo,SP,05776-460,6,0.6666666666666666,"-46.7483126, -23.6372559",CAMPO LIMPO
+RA55000282,Valdevane Diegues,20,1774.43,branca,masculino,4,privada,medicina,Rua André de Almeida,410,Cidade São Mateus,São Paulo,SP,03950-000,8,0.6666666666666666,"-46.4885923, -23.5894345",SAO MATEUS
+RA55000283,Oliva Monjardim Matoso Gama,20,1452.43,branca,feminino,4,pública,história,Rua Três de Maio,943,Vila Clementino,São Paulo,SP,04044-020,7,1.0,"-46.6420636, -23.6039906",SAUDE
+RA55000284,Ortilia Pardo Carneiro,20,1787.43,branca,feminino,4,pública,engenharia biomédica,Rua Nossa Senhora da Paz,485,Jardim Almeida,São Paulo,SP,04866-245,8,0.8,"-46.7266499, -23.8023856",PARELHEIROS
+RA55000285,Taislane Garrido Canela Matias,20,1739.43,branca,feminino,4,privada,administração,Rua São Pedro,208,Recanto Verde do Sol,São Paulo,SP,08382-110,8,1.0,"-46.4204982, -23.6161821",IGUATEMI
+RA55000286,Zeno Seabra Seabra,20,1559.43,branca,masculino,4,pública,medicina,Rua Marconi,820,Centro,São Paulo,SP,01047-905,8,0.6666666666666666,"-46.6404438, -23.5456485",REPUBLICA
+RA55000287,Merilin Távora,20,1243.44,branca,feminino,4,privada,medicina,Rua Marconi,585,Centro,São Paulo,SP,01047-910,8,0.6666666666666666,"-46.6404438, -23.5456485",REPUBLICA
+RA55000288,Izonilda Salazar Argolo Simão,20,2132.43,branca,feminino,4,privada,medicina,Praça Três de Setembro,892,Vila Alpina,São Paulo,SP,03207-060,6,0.6666666666666666,"-46.5658149, -23.6026004",VILA PRUDENTE
+RA55000289,Vanisi Sobral,20,1786.43,branca,feminino,4,pública,administração,Rua João Paulo,132,Piqueri,São Paulo,SP,02913-080,8,1.0,"-46.7133141, -23.501929",PIRITUBA
+RA55000290,Glaciara Adão,20,2379.43,branca,feminino,4,privada,ciência da computação,Rua Dom Valverde,947,Vila Monumento,São Paulo,SP,04261-090,8,1.0,"-46.6118806, -23.5805204",IPIRANGA
+RA55000291,Avelina Cabreira Mondragão,20,1393.44,preta,feminino,4,privada,administração,Rua Marechal Mello Ararigbóia,289,Vila Francos,São Paulo,SP,02880-060,6,1.0,"-46.6744801, -23.4684542",BRASILANDIA
+RA55000292,Enileia Mantas,20,2074.43,branca,feminino,4,privada,ciência da computação,Rua Marco Martini,861,Jardim Dona Deolinda,São Paulo,SP,08032-580,8,1.0,"-46.4287889, -23.5202641",LAJEADO
+RA55000293,Gualter Campelo,20,2158.43,branca,masculino,4,privada,direito,Rua Carapuruí,62,Alto da Lapa,São Paulo,SP,05059-050,7,0.8,"-46.7111633, -23.532242",LAPA
+RA55000294,Eziel Olaio,20,2233.43,branca,masculino,4,privada,medicina,Rua Antônio Maio,892,Jardim Previdência,São Paulo,SP,04163-020,8,0.6666666666666666,"-46.6132846, -23.6213818",CURSINO
+RA55000295,Natalia Souto Maior Cascais Reino,20,1594.43,branca,feminino,4,pública,história,Rua Dom Valverde,947,Vila Monumento,São Paulo,SP,04261-090,8,1.0,"-46.6118806, -23.5805204",IPIRANGA
+RA55000296,Eucana Ferraz Pequeno,20,1437.44,preta,masculino,4,pública,design,Rua Major Claudiano,49,Vila Gea,São Paulo,SP,04692-030,6,1.3333333333333333,"-46.6893496, -23.6760395",CAMPO GRANDE
+RA55000297,Deusinete Coutinho Lagoa,20,1343.44,branca,feminino,4,privada,ciência da computação,Rua Quinze de Novembro,803,Cantinho do Céu,São Paulo,SP,04849-527,6,1.0,"-46.6576262, -23.7408176",GRAJAU
+RA55000298,Oziel Pinto Linhares,20,2098.43,branca,masculino,4,pública,medicina,Rua Marconi,820,Centro,São Paulo,SP,01047-905,6,0.6666666666666666,"-46.6404438, -23.5456485",REPUBLICA
+RA55000299,Adenisson Bragança Lobo,20,1330.44,branca,masculino,4,privada,ciência de dados,Rua Trio Arquiduque,434,Jardim São Bernardo,São Paulo,SP,04844-520,6,1.1428571428571428,"-46.7019491, -23.7590457",GRAJAU
+RA55000300,Uendell Resende,20,1309.44,branca,masculino,4,privada,história,Rua Pedro Doll,676,Santana,São Paulo,SP,02404-001,7,1.0,"-46.6314, -23.4902621",SANTANA
+RA55000301,Charlini Pires Castanheira Aldeia,20,2011.43,branca,feminino,4,privada,ciência da computação,Rua Pires de Almeida,58,Vila Pita,São Paulo,SP,02478-130,4,1.0,"-46.66178290000001, -23.4775089",CACHOEIRINHA
+RA55000302,Varlei Marins Castro Serro,20,1535.43,branca,feminino,4,privada,filosofia,Rua Vandoma,793,Parque Cocaia,São Paulo,SP,04850-170,4,1.3333333333333333,"-46.6784405, -23.7543455",GRAJAU
+RA55000303,Geones Sintra,20,1627.43,branca,masculino,4,privada,medicina,Rua Treze de Maio,917,Cantinho do Céu,São Paulo,SP,04849-650,4,0.6666666666666666,"-46.6573675, -23.7404567",GRAJAU
+RA55000304,Elter Júdice,20,2039.43,preta,masculino,4,pública,filosofia,Praça Sete de Fevereiro,594,Vila Formosa,São Paulo,SP,03358-020,5,1.3333333333333333,"-46.5514324, -23.5637006",VILA FORMOSA
+RA55000305,Vanderlandia Castilhos,20,1999.43,branca,feminino,4,privada,ciência de dados,Avenida Onze de Junho,571,Vila Clementino,São Paulo,SP,04041-002,4,1.1428571428571428,"-46.6423513, -23.6017143",SAUDE
+RA55000306,Daluz Barbosa,20,1461.43,preta,feminino,4,privada,ciência da computação,Rua Caetano Ruyvo,713,Parque Ramos Freitas,São Paulo,SP,02353-060,5,1.0,"-46.6048447, -23.4528242",TREMEMBE
+RA55000307,Dasilva Matosinhos Fidalgo,20,1540.43,branca,masculino,4,pública,filosofia,Vila São João,348,Cidade São Mateus,São Paulo,SP,03961-130,4,1.3333333333333333,"-46.48318, -23.6033971",SAO MATEUS
+RA55000308,Jusiane Faia Barrocas Feira,20,1679.43,branca,feminino,4,pública,filosofia,Avenida Sargento Geraldo Sant'Ana,512,Jardim Taquaral,São Paulo,SP,04674-903,5,1.3333333333333333,"-46.68583839999999, -23.6636472",CAMPO GRANDE
+RA55000309,Sany Sá Cascais,20,2189.43,branca,feminino,4,privada,direito,Avenida Dezenove de Janeiro,320,Vila Carrão,São Paulo,SP,03449-000,5,0.8,"-46.52632699999999, -23.5554447",CARRAO
+RA55000310,Ivanderlei Mendes Cortesão,20,2191.43,branca,masculino,4,privada,engenharia biomédica,Rua Major Gomes Ribeiro,743,Vila Santa Teresa (Zona Leste),São Paulo,SP,03565-020,5,0.8,"-46.4960198, -23.5382945",ARTUR ALVIM
+RA55000311,Linick Gois Sandinha Amaral,20,1998.43,branca,masculino,4,privada,ciência da computação,Avenida Nove de Julho,873,Jardim Paulista,São Paulo,SP,01407-907,4,1.0,"-46.6464483, -23.5516417",BELA VISTA
+RA55000312,Aiane Beiriz Canedo,20,2217.43,branca,feminino,4,privada,design,Rua Peruíbe,864,Jardim Europa,São Paulo,SP,01448-090,5,1.3333333333333333,"-46.6835599, -23.5811095",ITAIM BIBI
+RA55000313,Bartolino Malheiro Teles Botica,20,1269.44,branca,masculino,4,privada,história,Rua Dezenove de Julho,875,Jardim São José (Zona Norte),São Paulo,SP,02971-040,4,1.0,"-46.7110407, -23.4863841",PIRITUBA
+RA55000314,Liniker Lara Santos,20,1549.43,preta,masculino,4,privada,história,Rua Treze de Agosto,878,Vila União (Zona Leste),São Paulo,SP,03920-070,5,1.0,"-46.5206946, -23.597979",SAPOPEMBA
+RA55000315,Andrei Frois,20,2074.43,branca,masculino,4,privada,engenharia biomédica,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,4,0.8,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000316,Almaiza Medeiros Ximenes,20,1731.43,branca,feminino,4,privada,ciência de dados,Rua Capitão Rangel,574,Vila São Geraldo,São Paulo,SP,03607-100,5,1.1428571428571428,"-46.5442257, -23.5174735",PENHA
+RA55000317,Elizabeth Matias Alpuim,20,2233.43,branca,feminino,4,privada,design,Rua Caetano do Amaral,274,Vila Cruzeiro,São Paulo,SP,03382-130,5,1.3333333333333333,"-46.5303, -23.579381",VILA FORMOSA
+RA55000318,Rosimeri Correia,20,1374.44,branca,feminino,4,privada,engenharia biomédica,Viela Treze de Abril,495,Jardim Nazareth,São Paulo,SP,08150-750,4,0.8,"-46.4040452, -23.5165078",VILA CURUCA
+RA55000319,Aldonei Nolasco,20,2232.43,branca,masculino,4,privada,direito,Rua São Vito,399,Brás,São Paulo,SP,03007-030,5,0.8,"-46.6139513, -23.5377391",BRAS
+RA55000320,Nizael Liberato Ginjeira Ninharelhos,20,2334.43,branca,masculino,4,pública,história,Rua Treze de Maio,349,Bela Vista,São Paulo,SP,01327-905,4,1.0,"-46.646521, -23.5562036",BELA VISTA
+RA55000321,Silvino Ninharelhos Reis Penteado,20,2412.43,branca,masculino,4,privada,direito,Praça Aramã,946,Jardim Nordeste,São Paulo,SP,03691-160,4,0.8,"-46.486362, -23.5320195",ARTUR ALVIM
+RA55000322,Rafaell Aragão,20,1414.44,branca,masculino,4,privada,design,Rua Marechal Morais Âncora,434,Jardim Maria Luiza,São Paulo,SP,05371-000,5,1.3333333333333333,"-46.7566145, -23.5859557",RIO PEQUENO
+RA55000323,Jackeline Maior Calheiros Barreto,20,1624.43,branca,feminino,4,privada,engenharia biomédica,Avenida Moaci,772,Planalto Paulista,São Paulo,SP,04093-901,5,0.8,"-46.6615498, -23.6134924",MOEMA
+RA55000324,Ebenezer Coutinho Amado,21,2038.88,branca,masculino,5,privada,filosofia,Rua Soldado Gentil Guimarães,750,Parque Novo Mundo,São Paulo,SP,02144-010,4,1.6666666666666667,"-46.5692414, -23.5036781",VILA MARIA
+RA55000325,Lindimar Vigário Olaio,21,1519.88,branca,feminino,5,pública,filosofia,Viela Treze de Abril,495,Jardim Nazareth,São Paulo,SP,08150-750,5,1.6666666666666667,"-46.4040452, -23.5165078",VILA CURUCA
+RA55000326,Nelivaldo Leão,21,1875.88,branca,masculino,5,privada,design,Praça Kant,199,Jardim Vila Mariana,São Paulo,SP,04116-230,4,1.6666666666666667,"-46.6228266, -23.592469",VILA MARIANA
+RA55000327,Sabrine Carneiro,21,2307.87,branca,feminino,5,privada,ciência da computação,Rua Vinte e Dois de Abril,329,Lajeado,São Paulo,SP,08450-420,5,1.25,"-46.3993909, -23.5444124",LAJEADO
+RA55000328,Dyovana Frajuca Ferrão,21,1619.88,preta,feminino,5,privada,engenharia biomédica,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,4,1.0,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000329,Cleneci Batata,21,2341.87,branca,feminino,5,privada,engenharia biomédica,Rua André de Almeida,410,Cidade São Mateus,São Paulo,SP,03950-000,5,1.0,"-46.4885923, -23.5894345",SAO MATEUS
+RA55000330,Dalila Franca Amado Quintana,21,1648.88,branca,feminino,5,privada,medicina,Rua José de Almeida,979,Vila Medeiros,São Paulo,SP,02204-001,5,0.8333333333333334,"-46.59184579999999, -23.4867237",VILA MEDEIROS
+RA55000331,Elen Sobreira,21,2238.88,branca,feminino,5,pública,medicina,Rua do Buruí,876,Parque Casa de Pedra,São Paulo,SP,02320-170,4,0.8333333333333334,"-46.5953586, -23.4483439",TREMEMBE
+RA55000332,Jadia Cangueiro Reino Torquato,21,1305.88,branca,feminino,5,pública,filosofia,Rua Capitão Salomão,840,Centro,São Paulo,SP,01034-020,4,1.6666666666666667,"-46.6369455, -23.5429693",REPUBLICA
+RA55000333,Doriceia Moura Coelho,21,1632.88,branca,feminino,5,pública,ciência da computação,Rua Capitão João Noronha,747,Parque Mandaqui,São Paulo,SP,02418-050,5,1.25,"-46.6291221, -23.471756",MANDAQUI
+RA55000334,Denocir Caiado Cachoeira Palos,21,1705.88,branca,masculino,5,privada,design,Praça Marechal Deodoro,187,Santa Cecília,São Paulo,SP,01150-010,5,1.6666666666666667,"-46.6547291, -23.5348011",SANTA CECILIA
+RA55000335,Avair Meira Nobre,21,2022.88,branca,masculino,5,privada,história,Praça Opala,269,Vila Euthalia,São Paulo,SP,03518-065,4,1.25,"-46.5232995, -23.5434301",VILA MATILDE
+RA55000336,Marielle Lima Aleixo,21,2403.87,branca,feminino,5,privada,história,Rua Marcos Lopes,456,Vila Nova Conceição,São Paulo,SP,04513-080,5,1.25,"-46.67151459999999, -23.5985126",MOEMA
+RA55000337,Jullia Montenegro,21,1891.88,branca,feminino,5,pública,direito,Rua Treze de Agosto,881,Vila União (Zona Leste),São Paulo,SP,03920-070,5,1.0,"-46.5206946, -23.597979",SAPOPEMBA
+RA55000338,Silvanara Cardoso Bingre,21,2273.88,branca,feminino,5,privada,administração,Rua Duque Costa,420,Vila Sofia,São Paulo,SP,04671-160,4,1.25,"-46.6906946, -23.6587313",CAMPO GRANDE
+RA55000339,Orelia Casalinho Chamusca Silveira,21,1710.88,branca,feminino,5,pública,design,Rua Capitão Fidélis,7,Santo Amaro,São Paulo,SP,04744-070,5,1.6666666666666667,"-46.7087692, -23.6579301",SANTO AMARO
+RA55000340,Abraham Cotrim Camelo,21,2195.88,branca,masculino,5,privada,história,Praça Opala,269,Vila Euthalia,São Paulo,SP,03518-065,4,1.25,"-46.5232995, -23.5434301",VILA MATILDE
+RA55000341,Leonete Flores Sítima Esteves,21,1844.88,branca,feminino,5,pública,ciência da computação,Rua Sargento Advíncola,568,Parque Mandaqui,São Paulo,SP,02418-130,5,1.25,"-46.6295874, -23.4694138",TUCURUVI
+RA55000342,Andria Calçada,21,1357.88,branca,feminino,5,pública,design,Rua Dois de Julho,506,Ipiranga,São Paulo,SP,04215-000,4,1.6666666666666667,"-46.6012332, -23.5960735",IPIRANGA
+RA55000343,Alzirene Carmona,21,1317.88,branca,feminino,5,pública,engenharia biomédica,Rua Manuel Pinto,121,Jardim Eliza,São Paulo,SP,05776-460,4,1.0,"-46.7483126, -23.6372559",CAMPO LIMPO
+RA55000344,Aguilar Maia,21,1946.88,branca,feminino,5,pública,ciência da computação,Praça Alves Barbosa,878,Vila Bonilha,São Paulo,SP,02935-140,5,1.25,"-46.717821, -23.4890898",PIRITUBA
+RA55000345,Luzinea Meneses Granjeiro Figueiró,21,2279.88,branca,feminino,5,pública,administração,Rua Domingos Maza,903,Vila Boaçava,São Paulo,SP,05170-280,5,1.25,"-46.7502212, -23.4831725",PIRITUBA
+RA55000346,Edinei Couto Vasques,21,1847.88,branca,feminino,5,privada,ciência da computação,Rua Caetano de Moura,216,Vila Nina,São Paulo,SP,02833-060,5,1.25,"-46.6922537, -23.4782964",FREGUESIA DO O
+RA55000347,Kauara César,21,2105.88,branca,feminino,5,privada,administração,Rua Marechal Deodoro,565,Santo Amaro,São Paulo,SP,04738-900,4,1.25,"-46.6961782, -23.6408194",SANTO AMARO
+RA55000348,Ezanir Calheiros Estrada,21,1374.88,preta,feminino,5,pública,ciência de dados,Rua Diogo Barbosa,435,Vila Marari,São Paulo,SP,04403-210,5,1.4285714285714286,"-46.6631442, -23.6751645",CID ADEMAR
+RA55000349,Juli Anhaia,21,1393.88,preta,masculino,5,privada,história,Rua Joaquim Caetano,994,Cidade Nova América,São Paulo,SP,04897-525,5,1.25,"-46.6795882, -23.8695285",PARELHEIROS
+RA55000350,Deividiane Esteves Barros Cisneiros,21,2050.88,branca,feminino,5,pública,filosofia,Praça M'Boi,904,Butantã,São Paulo,SP,05511-030,4,1.6666666666666667,"-46.751149, -23.5726334",RIO PEQUENO
+RA55000351,Laelco Brandão,21,2295.88,branca,masculino,5,privada,ciência de dados,Rua Rui Boto de Sousa,425,Jardim Aracati,São Paulo,SP,04949-020,3,1.4285714285714286,"-46.7670013, -23.7192588",JD ANGELA
+RA55000352,Etiene Cirne Moreno Clementino,21,2582.87,branca,feminino,5,privada,história,Rua Rio de Janeiro,805,Parque Recreio,São Paulo,SP,04891-230,3,1.25,"-46.7442007, -23.8480828",PARELHEIROS
+RA55000353,Adicelma Cruz,21,2971.87,branca,feminino,5,pública,engenharia biomédica,Rua Vandoma,793,Parque Cocaia,São Paulo,SP,04850-170,2,1.0,"-46.6784405, -23.7543455",GRAJAU
+RA55000354,Onei Escobar Lagos Carreiro,21,3321.87,preta,masculino,5,privada,medicina,Rua João Canzi,697,Jardim Patente,São Paulo,SP,04243-090,2,0.8333333333333334,"-46.5872923, -23.6255862",SACOMA
+RA55000355,Lazira Soverosa,21,2883.87,branca,feminino,5,privada,administração,Rua Dom Valverde,947,Vila Monumento,São Paulo,SP,04261-090,2,1.25,"-46.6118806, -23.5805204",IPIRANGA
+RA55000356,Poleana Areosa Fraga Cartaxo,21,3152.87,branca,feminino,5,pública,filosofia,Rua Monsenhor Salim,959,Itaim Paulista,São Paulo,SP,08111-180,2,1.6666666666666667,"-46.3795467, -23.4951311",ITAIM PAULISTA
+RA55000357,Eziel Amado Pegado Barbalho,21,2806.87,branca,masculino,5,privada,engenharia biomédica,Rua Capitão José Leite,77,Vila Matilde,São Paulo,SP,03510-010,2,1.0,"-46.5286835, -23.5390253",VILA MATILDE
+RA55000358,Dib Torquato Quinterno Bouças,21,2910.87,branca,masculino,5,pública,ciência da computação,Praça Capri,573,Jardim Leonor Mendes de Barros,São Paulo,SP,02347-040,3,1.25,"-46.6110238, -23.463234",TREMEMBE
+RA55000359,Islandia Valcácer Brum Castro,21,2904.87,branca,feminino,5,privada,ciência da computação,Praça M'Boi,654,Butantã,São Paulo,SP,05511-030,3,1.25,"-46.751149, -23.5726334",RIO PEQUENO
+RA55000360,Sortenes Espargosa Bettencourt,21,2613.87,branca,masculino,5,pública,história,Rua Joaquim Caetano,994,Cidade Nova América,São Paulo,SP,04897-525,3,1.25,"-46.6795882, -23.8695285",PARELHEIROS
+RA55000361,Lorrana Fogaça,21,3056.87,branca,feminino,5,privada,filosofia,Rua São Judas,868,Condomínio Jequirituba,São Paulo,SP,04851-604,2,1.6666666666666667,"-46.7057505, -23.8155891",PARELHEIROS
+RA55000362,Gilliard Cobra Reis,21,2855.87,branca,masculino,5,privada,direito,Rua 9 de Setembro,652,Chácara Gaivotas,São Paulo,SP,04849-333,2,1.0,"-46.661306, -23.7337253",GRAJAU
+RA55000363,Cleison Homem Pinho,21,2904.87,branca,masculino,5,privada,filosofia,Rua Pedro Doll,676,Santana,São Paulo,SP,02404-001,2,1.6666666666666667,"-46.6314, -23.4902621",SANTANA
+RA55000364,Kethellen  Figueira,21,2790.87,branca,feminino,5,pública,engenharia biomédica,Rua Dirceu de Almeida,46,Parque São Domingos,São Paulo,SP,05126-110,2,1.0,"-46.7417579, -23.5022889",SAO DOMINGOS
+RA55000365,Denilia Caçoilo Monsanto Barroqueiro,21,2879.87,branca,feminino,5,privada,direito,Rua Capitão Luís Ramos,871,Vila Guilherme,São Paulo,SP,02066-010,2,1.0,"-46.6059649, -23.503564",VILA GUILHERME
+RA55000366,Reci Baldaia,21,3598.86,branca,feminino,5,privada,engenharia biomédica,Avenida Ceci,688,Planalto Paulista,São Paulo,SP,04065-004,2,1.0,"-46.6521425, -23.6156353",SAUDE
+RA55000367,Valdomira Valverde Carromeu,21,3430.87,branca,feminino,5,privada,direito,Rua Vinte e Quatro de Dezembro,307,Vila Dom Pedro II,São Paulo,SP,02241-050,3,1.0,"-46.6084829, -23.4900508",TUCURUVI
+RA55000368,Sumika Ramos Carvalhais,21,3643.86,preta,feminino,5,privada,administração,Avenida Marechal Tito,891,Jardim Silva Teles,São Paulo,SP,08160-495,3,1.25,"-46.4371255, -23.4950325",SAO MIGUEL
+RA55000369,Belizario Vidal Quintana Carromeu,21,2604.87,branca,masculino,5,privada,direito,Rua Baltazar Barbosa,836,Parque São Rafael,São Paulo,SP,08320-500,3,1.0,"-46.4764464, -23.6190818",SAO RAFAEL
+RA55000370,Wanilse Severiano Ramos,21,2748.87,branca,feminino,5,privada,história,Rua Pedro Bruno,172,Butantã,São Paulo,SP,05506-010,3,1.25,"-46.7094469, -23.5627911",BUTANTA
+RA55000371,Cacimiro Toscano,21,3317.87,branca,masculino,5,privada,ciência de dados,Rua Vinte e Dois de Abril,329,Lajeado,São Paulo,SP,08450-420,3,1.4285714285714286,"-46.3993909, -23.5444124",LAJEADO
+RA55000372,Darlice Paiva Prada Queiroga,21,2582.87,preta,feminino,5,pública,medicina,Rua Pedro Bruno,172,Butantã,São Paulo,SP,05506-010,2,0.8333333333333334,"-46.7094469, -23.5627911",BUTANTA
+RA55000373,Luane Tinoco Belo,21,2549.87,branca,feminino,5,privada,medicina,Avenida Rudge,293,Bom Retiro,São Paulo,SP,01134-000,3,0.8333333333333334,"-46.6495072, -23.5256075",SANTA CECILIA
+RA55000374,Dinise Cedraz,21,3145.87,branca,feminino,5,privada,medicina,Rua Major Gomes Ribeiro,743,Vila Santa Teresa (Zona Leste),São Paulo,SP,03565-020,3,0.8333333333333334,"-46.4960198, -23.5382945",ARTUR ALVIM
+RA55000375,Aleixo Palos Regodeiro Anlicoara,21,2499.87,branca,masculino,5,pública,design,Rua Nossa Senhora Aparecida,604,Jardim Felicidade (Zona Norte),São Paulo,SP,02326-105,3,1.6666666666666667,"-46.5768098, -23.4440407",JACANA
+RA55000376,Madaleno Soeiro Angelim Paulos,21,3439.87,branca,masculino,5,privada,design,Avenida Sargento Geraldo Sant'Ana,572,Jardim Taquaral,São Paulo,SP,04674-901,2,1.6666666666666667,"-46.6855439, -23.6636627",CAMPO GRANDE
+RA55000377,Elane Mamouros,21,2718.87,branca,feminino,5,pública,direito,Rua Marechal Deodoro,273,Santo Amaro,São Paulo,SP,04738-900,3,1.0,"-46.6989916, -23.6386852",SANTO AMARO
+RA55000378,Lenilda Queirós,21,3562.86,branca,feminino,5,pública,engenharia biomédica,Praça Capri,573,Jardim Leonor Mendes de Barros,São Paulo,SP,02347-040,2,1.0,"-46.6110238, -23.463234",TREMEMBE
+RA55000379,Tamilles Adão Camargo,21,2606.87,branca,feminino,5,privada,design,Avenida Nove de Julho,568,Jardim Paulista,São Paulo,SP,01407-907,2,1.6666666666666667,"-46.6438767, -23.5502206",REPUBLICA
+RA55000380,Rominique Cartaxo Guterres,21,2485.87,preta,masculino,5,privada,filosofia,Rua Capitão Prudente,202,Pinheiros,São Paulo,SP,05422-050,2,1.6666666666666667,"-46.6865828, -23.5679204",PINHEIROS
+RA55000381,Euricelia Lameira,21,2683.87,branca,feminino,5,pública,direito,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,3,1.0,"-46.4563377, -23.4870127",VILA JACUI
+RA55000382,Juciana Calheiros Brasil Urias,21,2538.87,branca,feminino,5,privada,direito,Rua Trinta e Um de Outubro,686,Lauzane Paulista,São Paulo,SP,02442-165,2,1.0,"-46.6450236, -23.475452",MANDAQUI
+RA55000383,Thierry Alcântara Canejo,21,3502.86,branca,masculino,5,privada,administração,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,2,1.25,"-46.4563377, -23.4870127",VILA JACUI
+RA55000384,Maviel Mendonça Cerqueira,21,3089.87,branca,masculino,5,pública,ciência de dados,Rua São Bruno,741,Jardim São Bento,São Paulo,SP,02525-020,3,1.4285714285714286,"-46.6471054, -23.5032003",CASA VERDE
+RA55000385,Idalete Farinha Monteiro Arouca,21,3019.87,branca,feminino,5,privada,filosofia,Rua Major Baracca,906,Parque Edu Chaves,São Paulo,SP,02232-000,2,1.6666666666666667,"-46.5621975, -23.4755526",JACANA
+RA55000386,Gabrielen Mangueira,21,2506.87,branca,feminino,5,privada,história,Rua Flor de Abril,918,Jardim Peri,São Paulo,SP,02651-140,3,1.25,"-46.6575641, -23.4601589",CACHOEIRINHA
+RA55000387,Lucinira Torrado,21,2938.87,branca,feminino,5,pública,administração,Rua Caetano Mero,60,Vila Constança,São Paulo,SP,04658-080,3,1.25,"-46.6654077, -23.672821",CID ADEMAR
+RA55000388,Mairana Homem,21,3301.87,branca,feminino,5,pública,filosofia,Rua Marconi,820,Centro,São Paulo,SP,01047-905,2,1.6666666666666667,"-46.6404438, -23.5456485",REPUBLICA
+RA55000389,Fabineia Morais Guerra Gusmão,21,2633.87,branca,feminino,5,pública,engenharia biomédica,Rua Dezenove de Julho,875,Jardim São José (Zona Norte),São Paulo,SP,02971-040,2,1.0,"-46.7110407, -23.4863841",PIRITUBA
+RA55000390,Deide Barbalho Penha Ourique,21,2659.87,branca,feminino,5,pública,história,Rua Nossa Senhora da Piedade,327,Jardim Francisco Mendes,São Paulo,SP,02366-010,2,1.25,"-46.6925688, -23.6329488",SANTO AMARO
+RA55000391,Leureni Freiria,21,2569.87,branca,feminino,5,privada,história,Rua Trio Arquiduque,434,Jardim São Bernardo,São Paulo,SP,04844-520,3,1.25,"-46.7019491, -23.7590457",GRAJAU
+RA55000392,Kae Paulos Ulhoa,21,2550.87,branca,masculino,5,pública,filosofia,Rua Diogo Barbosa,435,Vila Marari,São Paulo,SP,04403-210,3,1.6666666666666667,"-46.6631442, -23.6751645",CID ADEMAR
+RA55000393,Taina Vilar Cunha Leme,21,3650.86,branca,feminino,5,privada,engenharia biomédica,Rua Major Boaventura,415,Parque Artur Alvim,São Paulo,SP,03569-030,2,1.0,"-46.4910479, -23.5423042",ARTUR ALVIM
+RA55000394,Almirio Charneca Eanes,21,3492.86,branca,masculino,5,pública,engenharia biomédica,Rua Almeida Leite,424,Siciliano,São Paulo,SP,05052-080,2,1.0,"-46.7002458, -23.5340327",LAPA
+RA55000395,Nicea Zambujal Tomé,21,2590.87,branca,feminino,5,privada,filosofia,Travessa Cinco de Janeiro,924,Jardim São Savério,São Paulo,SP,04194-345,2,1.6666666666666667,"-46.6089478, -23.6522671",SACOMA
+RA55000396,Edico Estrela Castanheda Meneses,21,3205.87,branca,masculino,5,privada,ciência da computação,Rua João Anes,464,Alto da Lapa,São Paulo,SP,05060-020,2,1.25,"-46.7066304, -23.5265268",LAPA
+RA55000397,Jong Anes,21,3282.87,branca,feminino,5,privada,medicina,Rua Dez de Julho,594,Cidade Ademar,São Paulo,SP,04404-000,2,0.8333333333333334,"-46.6585678, -23.6659976",CID ADEMAR
+RA55000398,Jailde Aranha,21,2738.87,branca,masculino,5,privada,administração,Rua Monsenhor Anacleto,13,Brás,São Paulo,SP,03003-020,3,1.25,"-46.623174, -23.5466213",BRAS
+RA55000399,Dimorvan Feira Salazar,21,3636.86,branca,masculino,5,privada,design,Rua Caetano Pinto,235,Brás,São Paulo,SP,03041-000,3,1.6666666666666667,"-46.621499, -23.5481405",BRAS
+RA55000400,Edselma Lários Marcondes Quinterno,21,3384.87,preta,feminino,5,privada,administração,Avenida Ceci,688,Planalto Paulista,São Paulo,SP,04065-004,2,1.25,"-46.6521425, -23.6156353",SAUDE
+RA55000401,Roberson Lisboa Zambujal,21,3557.86,preta,masculino,5,pública,ciência de dados,Rua Major Walter Carlson,532,Jardim Arpoador,São Paulo,SP,05565-210,3,1.4285714285714286,"-46.7898091, -23.5921035",RAPOSO TAVARES
+RA55000402,Josimar Neves Onofre Bento,21,3175.87,branca,masculino,5,privada,ciência da computação,Travessa Dezoito de Dezembro,659,Vila Tolstoi,São Paulo,SP,03269-035,2,1.25,"-46.5237118, -23.6032076",SAPOPEMBA
+RA55000403,Valdita Viveiros Póvoas,21,3352.87,branca,feminino,5,privada,filosofia,Avenida Nove de Julho,568,Jardim Paulista,São Paulo,SP,01407-907,2,1.6666666666666667,"-46.6438767, -23.5502206",REPUBLICA
+RA55000404,Aurelino Lousada Lustosa Prado,23,2524.77,branca,masculino,1,privada,ciência de dados,Avenida Rudge,293,Bom Retiro,São Paulo,SP,01134-000,2,0.2857142857142857,"-46.6495072, -23.5256075",SANTA CECILIA
+RA55000405,Euflavia Noite,22,3168.31,branca,feminino,4,privada,filosofia,Rua Marcos Lopes,456,Vila Nova Conceição,São Paulo,SP,04513-080,2,1.3333333333333333,"-46.67151459999999, -23.5985126",MOEMA
+RA55000406,Experdito Craveiro Palmeira,22,3582.31,branca,masculino,2,privada,engenharia biomédica,Rua Dom Rosalvo,343,Sumarezinho,São Paulo,SP,05442-903,3,0.4,"-46.6970771, -23.5458286",ALTO DE PINHEIROS
+RA55000407,Elisbete Nunes,23,3053.76,branca,feminino,2,privada,administração,Rua Sete de Junho,453,União de Vila Nova,São Paulo,SP,08072-075,3,0.5,"-46.4563377, -23.4870127",VILA JACUI
+RA55000408,Mirivaldo Pedro,23,3342.76,preta,masculino,5,privada,ciência de dados,Rua Pedro Lembi,593,Vila Maria Baixa,São Paulo,SP,02110-020,3,1.4285714285714286,"-46.5974888, -23.5199911",VILA GUILHERME
+RA55000409,Liciene Morão Brasil,22,3457.31,branca,feminino,5,privada,história,Praça Capri,573,Jardim Leonor Mendes de Barros,São Paulo,SP,02347-040,3,1.25,"-46.6110238, -23.463234",TREMEMBE
+RA55000410,Gabriell Azevedo,25,3624.65,branca,masculino,4,privada,filosofia,Rua Rui Boto de Sousa,425,Jardim Aracati,São Paulo,SP,04949-020,3,1.3333333333333333,"-46.7670013, -23.7192588",JD ANGELA
+RA55000411,Wellio Ponte,22,2703.32,branca,masculino,3,privada,design,Rua Nossa Senhora da Paz,485,Jardim Almeida,São Paulo,SP,04866-245,3,1.0,"-46.7266499, -23.8023856",PARELHEIROS
+RA55000412,Orliete Inácio Carneiro Chamusca,23,3503.76,branca,feminino,5,pública,design,Praça da Sé,871,Sé,São Paulo,SP,01001-901,3,1.6666666666666667,"-46.6334257, -23.5492926",SE
+RA55000413,Lucileno Penteado,24,3289.21,branca,masculino,2,privada,direito,Avenida Marechal Tito,689,Jardim Silva Teles,São Paulo,SP,08160-505,2,0.4,"-46.4388502, -23.4940917",SAO MIGUEL
+RA55000414,Glenilson Vinhas,22,3182.31,branca,masculino,2,pública,engenharia biomédica,Rua Carapuruí,62,Alto da Lapa,São Paulo,SP,05059-050,3,0.4,"-46.7111633, -23.532242",LAPA
+RA55000415,Diel Calçada Baía,23,2556.77,branca,masculino,5,privada,administração,Avenida Dezenove de Janeiro,320,Vila Carrão,São Paulo,SP,03449-000,2,1.25,"-46.52632699999999, -23.5554447",CARRAO
+RA55000416,Marconio Graça,22,2986.32,preta,masculino,4,privada,direito,Travessa Dezoito de Dezembro,659,Vila Tolstoi,São Paulo,SP,03269-035,2,0.8,"-46.5237118, -23.6032076",SAPOPEMBA
+RA55000417,Lidovino Caneira Leitão,25,2996.66,branca,masculino,5,pública,direito,Rua Caetano Augusto,468,Mooca,São Paulo,SP,03190-070,2,1.0,"-46.5722877, -23.5638971",AGUA RASA
+RA55000418,Licilene Bugalho,23,3558.76,branca,feminino,5,pública,ciência de dados,Rua Marechal Silva Fonseca,104,Jardim Três Marias,São Paulo,SP,03676-030,2,1.4285714285714286,"-46.4927623, -23.5171327",PONTE RASA
+RA55000419,Taise Fontinha Cardim,22,3274.31,branca,feminino,4,privada,ciência de dados,Rua Nove de Julho,501,Santo Amaro,São Paulo,SP,04739-900,3,1.1428571428571428,"-46.6971311, -23.6462365",SANTO AMARO
+RA55000420,Geisson Vides Marques,25,3296.66,branca,masculino,3,privada,ciência da computação,Avenida Nove de Julho,648,Jardim Paulista,São Paulo,SP,01407-905,2,0.75,"-46.6447529, -23.5505481",REPUBLICA
+RA55000421,Angelino Onofre Minho,24,2731.21,branca,masculino,4,privada,administração,Rua Três de Maio,943,Vila Clementino,São Paulo,SP,04044-020,3,1.0,"-46.6420636, -23.6039906",SAUDE
+RA55000422,Poliano Brum Faria,24,2951.21,branca,masculino,3,privada,medicina,Rua Major Baracca,906,Parque Edu Chaves,São Paulo,SP,02232-000,2,0.5,"-46.5621975, -23.4755526",JACANA
+RA55000423,Edmildo Modesto,24,2604.21,branca,masculino,3,pública,medicina,Avenida Agami,715,Moema,São Paulo,SP,04522-001,3,0.5,"-46.6597619, -23.6008414",MOEMA
+RA55000424,Rosilma Cavaco,22,3378.31,branca,feminino,1,pública,ciência da computação,Rua Marechal Deodoro,273,Santo Amaro,São Paulo,SP,04738-900,2,0.25,"-46.6989916, -23.6386852",SANTO AMARO
+RA55000425,Giova Parente,23,3320.76,branca,masculino,4,privada,engenharia biomédica,Rua D,297,Jardim Mar Lune,São Paulo,SP,04874-190,3,0.8,"-46.6657058, -23.8211839",GRAJAU
+RA55000426,Ronicleiton Neres Prado Meireles,25,5710.63,branca,masculino,3,pública,filosofia,Rua Marechal Pimentel,204,Sacomã,São Paulo,SP,04248-100,2,1.0,"-46.5964786, -23.6104991",SACOMA
+RA55000427,Elielton Canela,24,5315.19,branca,masculino,4,privada,engenharia biomédica,Rua Treze de Janeiro,374,Americanópolis,São Paulo,SP,04336-080,2,0.8,"-46.6451153, -23.6663831",JABAQUARA
+RA55000428,Leslen Roriz Igrejas Chainho,23,4522.75,branca,feminino,1,privada,ciência de dados,Rua Flor de Abril,918,Jardim Peri,São Paulo,SP,02651-140,2,0.2857142857142857,"-46.6575641, -23.4601589",CACHOEIRINHA
+RA55000429,Isaides Rangel,25,5463.64,preta,feminino,1,privada,história,Rua Vandoma,788,Parque Cocaia,São Paulo,SP,04850-170,2,0.25,"-46.6784405, -23.7543455",GRAJAU
+RA55000430,Nicilene Malafaia,22,5795.29,branca,feminino,3,privada,medicina,Rua Capitão Rangel,574,Vila São Geraldo,São Paulo,SP,03607-100,2,0.5,"-46.5442257, -23.5174735",PENHA
+RA55000431,Dimi Fidalgo,25,4992.64,branca,masculino,1,privada,ciência da computação,Rua Capitão Salomão,840,Centro,São Paulo,SP,01034-020,3,0.25,"-46.6369455, -23.5429693",REPUBLICA
+RA55000432,Uender Lourenço Veloso Catela,23,5784.74,branca,feminino,2,privada,engenharia biomédica,Rua Capitão José Leite,759,Vila Matilde,São Paulo,SP,03510-010,2,0.4,"-46.52812, -23.5420314",VILA MATILDE
+RA55000433,Ordalina Mafra Carrilho Urias,22,5305.3,preta,feminino,3,privada,história,Rua Pedro Doll,676,Santana,São Paulo,SP,02404-001,2,0.75,"-46.6314, -23.4902621",SANTANA
+RA55000434,Felisvaldo Júdice,24,3936.2,branca,masculino,4,privada,direito,Rua Soneto de Agosto,641,Jardim Santa Lucrécia,São Paulo,SP,05185-430,2,0.8,"-46.7490884, -23.4395076",JARAGUA
+RA55000435,Chaiani Camarinho Carvalheira Quinteiro,24,5745.19,branca,feminino,5,pública,medicina,Rua André de Almeida,565,Jardim Cinco de Julho,São Paulo,SP,03953-085,2,0.8333333333333334,"-46.4876002, -23.590251",SAO MATEUS
+RA55000436,Rafick Dourado Inês Coimbra,23,6026.74,branca,masculino,3,pública,ciência de dados,Rua Sete de Abril,787,Centro,São Paulo,SP,01044-902,3,0.8571428571428571,"-46.64274040000001, -23.5442654",REPUBLICA
+RA55000437,Enzon Valério Lagos Franqueira,24,5549.19,branca,masculino,2,privada,administração,Rua Quinze de Novembro,993,Centro,São Paulo,SP,01013-907,3,0.5,"-46.6342173, -23.5475305",SE
+RA55000438,Arllen Valgueiro Dias,25,5986.63,branca,feminino,3,pública,administração,Viela Vinte e Sete de Setembro,710,Cidade Nova Heliópolis,São Paulo,SP,04235-090,3,0.75,"-46.5909673, -23.6114651",SACOMA
+RA55000439,Weldja Feitosa,22,3752.31,branca,feminino,4,privada,administração,Rua Soldado Aristides Gouveia,76,Parque Novo Mundo,São Paulo,SP,02188-090,2,1.0,"-46.5686261, -23.5106898",VILA MARIA
+RA55000440,Taniara Barroqueiro Boga,25,5938.63,branca,feminino,5,privada,filosofia,Rua Dom Valentim,536,Jardim Colombo,São Paulo,SP,05629-040,2,1.6666666666666667,"-46.7305588, -23.6043483",VILA SONIA
+RA55000441,Ozenilde Chousa,24,3813.2,branca,feminino,4,pública,história,Rua Soldado Gentil Guimarães,750,Parque Novo Mundo,São Paulo,SP,02144-010,3,1.0,"-46.5692414, -23.5036781",VILA MARIA
+RA55000442,Tatiele Ponte Cambezes,22,5914.29,preta,feminino,4,pública,filosofia,Rua Marino Pinto,894,Jardim Palmares (Zona Sul),São Paulo,SP,04457-090,3,1.3333333333333333,"-46.6782738, -23.6893317",CAMPO GRANDE
+RA55000443,Dieliton Sardinha Bingre Brião,25,4672.64,branca,masculino,1,pública,direito,Rua Vinte e Seis de Abril,307,Vila Esperança,São Paulo,SP,03651-020,3,0.2,"-46.5185714, -23.5236442",PENHA
+RA55000444,Wildison Canejo Assunção Canto,23,3811.76,branca,masculino,3,privada,história,Rua Joaquim Caetano,994,Cidade Nova América,São Paulo,SP,04897-525,3,0.75,"-46.6795882, -23.8695285",PARELHEIROS
+RA55000445,Maluza Robalinho Baião,23,4799.75,preta,feminino,3,privada,medicina,Rua N,349,Jardim Brasília (Zona Norte),São Paulo,SP,02857-065,3,0.5,"-46.7073647, -23.4428259",BRASILANDIA
+RA55000446,Felismina Castelhano Dourado,22,5041.3,branca,feminino,5,privada,ciência de dados,Rua Monsenhor Salim,959,Itaim Paulista,São Paulo,SP,08111-180,2,1.4285714285714286,"-46.3795467, -23.4951311",ITAIM PAULISTA
+RA55000447,Dogomar Sítima Nazário,22,5023.3,preta,masculino,5,privada,medicina,Rua 5 de Outubro,841,Chácara Gaivotas,São Paulo,SP,04849-309,2,0.8333333333333334,"-46.6641055, -23.739427",GRAJAU
+RA55000448,Eliane Brás Carvalhais Guedelha,24,5405.19,branca,feminino,1,privada,filosofia,Rua João Canzi,697,Jardim Patente,São Paulo,SP,04243-090,2,0.3333333333333333,"-46.5872923, -23.6255862",SACOMA
+RA55000449,Arineuza Espargosa,25,4687.64,branca,feminino,5,pública,ciência da computação,Rua Capitão Prudente,202,Pinheiros,São Paulo,SP,05422-050,3,1.25,"-46.6865828, -23.5679204",PINHEIROS
+RA55000450,Josineire Lameirinhas,25,4730.64,preta,feminino,5,pública,engenharia biomédica,Praça Caipé,376,Vila Califórnia,São Paulo,SP,03213-010,2,1.0,"-46.5589419, -23.6042138",VILA PRUDENTE
+RA55000451,Glauber Cipriano Anes Godoi,23,3813.76,branca,masculino,5,privada,direito,Rua Vinte e Oito de Setembro,136,Vila Dom Pedro I,São Paulo,SP,04267-000,1,1.0,"-46.6112781, -23.5942204",IPIRANGA
+RA55000452,Djanildo Canedo Quintão,25,5194.64,branca,masculino,5,privada,engenharia biomédica,Praça Alves Barbosa,878,Vila Bonilha,São Paulo,SP,02935-140,0,1.0,"-46.717821, -23.4890898",PIRITUBA
+RA55000453,Valdir Álvares Goulart,23,3742.76,branca,masculino,3,privada,ciência de dados,Rua Major Ari Gomes,118,Vila Mazzei,São Paulo,SP,02309-050,0,0.8571428571428571,"-46.6068757, -23.4741075",TUCURUVI
+RA55000454,Sidevaldo Olivares Amarante,25,5099.64,branca,masculino,5,privada,ciência de dados,Praça Caipé,376,Vila Califórnia,São Paulo,SP,03213-010,1,1.4285714285714286,"-46.5589419, -23.6042138",VILA PRUDENTE
+RA55000455,Cleuzinete Arantes,25,4470.65,branca,feminino,1,privada,direito,Rua N,126,Furnas,São Paulo,SP,02323-280,0,0.2,"-46.5883074, -23.4427623",TREMEMBE
+RA55000456,Geise Malafaia,24,3998.2,branca,feminino,2,privada,ciência de dados,Rua Rosa de Nossa Senhora,913,Vila Reis,São Paulo,SP,08040-400,1,0.5714285714285714,"-46.450615, -23.5085513",VILA JACUI
+RA55000457,Bruci Ventura,22,4825.3,branca,masculino,5,privada,direito,Rua Almeida Góis,195,Vila Gumercindo,São Paulo,SP,04131-040,0,1.0,"-46.6169678, -23.6071615",CURSINO
+RA55000458,Dislaine Bogado Alcântara Poças,23,3974.76,branca,feminino,1,pública,ciência de dados,Praça Três de Setembro,892,Vila Alpina,São Paulo,SP,03207-060,1,0.2857142857142857,"-46.5658149, -23.6026004",VILA PRUDENTE
+RA55000459,Nairon Inácio Zambujal Canário,23,4736.75,preta,masculino,5,privada,história,Rua Almeida Araújo,681,Jardim Santa Etelvina,São Paulo,SP,08470-815,0,1.25,"-46.3936688, -23.5934785",CID TIRADENTES
+RA55000460,Niele Padilha,23,6008.74,branca,feminino,3,privada,ciência da computação,Rua Ilha Maiorca,682,Jardim Guarujá,São Paulo,SP,05877-250,1,0.75,"-46.7926505, -23.6909826",CAPAO REDONDO
+RA55000461,Shigueo Castanheira Lopes Belo,23,6051.74,branca,masculino,1,privada,engenharia biomédica,Rua Onofre Pinto,15,Jardim Lajeado,São Paulo,SP,08441-211,1,0.2,"-46.4028941, -23.5327506",LAJEADO
+RA55000462,Rariana Hipólito Gameiro,25,3721.65,branca,feminino,1,privada,filosofia,Rua Major João Nunes,800,Jardim São Paulo(Zona Norte),São Paulo,SP,02046-070,0,0.3333333333333333,"-46.6109608, -23.4925579",VILA GUILHERME
+RA55000463,Eugenio Madruga Bragança,24,3942.2,branca,masculino,4,pública,engenharia biomédica,Praça São Marcos,834,Vila Ida,São Paulo,SP,05455-050,0,0.8,"-46.71106229999999, -23.5424129",ALTO DE PINHEIROS
+RA55000464,Yorrana Matosinhos Campelo Soeiro,22,4839.3,branca,feminino,4,privada,história,Praça Kant,199,Jardim Vila Mariana,São Paulo,SP,04116-230,1,1.0,"-46.6228266, -23.592469",VILA MARIANA
+RA55000465,Julinaldo Silva Aquino Grande,24,6023.18,branca,masculino,2,pública,direito,Rua São Luís,207,Vila Cosmopolita,São Paulo,SP,08421-030,1,0.4,"-46.4240129, -23.5566942",GUAIANASES
+RA55000466,Joselma Chamusca Ferreira Meira,23,6014.74,branca,feminino,4,privada,design,Avenida Marechal Tito,891,Jardim Silva Teles,São Paulo,SP,08160-495,1,1.3333333333333333,"-46.4371255, -23.4950325",SAO MIGUEL
+RA55000467,Degazito Baião,22,4473.3,branca,masculino,5,privada,administração,Avenida Nove de Julho,506,Jardim Paulista,São Paulo,SP,01406-901,0,1.25,"-46.6558998, -23.5619007",BELA VISTA
+RA55000468,Naimi Bingre,22,3910.31,branca,feminino,3,privada,design,Avenida Iraí,894,Indianópolis,São Paulo,SP,04082-907,1,1.0,"-46.65991990000001, -23.6134141",MOEMA
+RA55000469,Reinado Varejão Guerra Maior,45,5635.58,branca,masculino,4,pública,direito,Avenida Onze de Junho,571,Vila Clementino,São Paulo,SP,04041-002,1,0.8,"-46.6423513, -23.6017143",SAUDE
+RA55000470,Erino Sá Sesimbra Taborda,33,3785.23,branca,masculino,2,pública,ciência da computação,Travessa Cinco de Janeiro,924,Jardim São Savério,São Paulo,SP,04194-345,0,0.5,"-46.6089478, -23.6522671",SACOMA
+RA55000471,Elissandro Mamouros Camargo,31,3905.78,preta,masculino,2,privada,administração,Rua Ruiva,987,Brasilândia,São Paulo,SP,02844-110,0,0.5,"-46.6878464, -23.4695049",BRASILANDIA
+RA55000472,Ueder Cabeça De Vaca Hilário Carvalheiro,42,4888.24,branca,masculino,1,privada,direito,Rua São Marun,19,Chácara Itaim,São Paulo,SP,04543-017,1,0.2,"-46.6883533, -23.5892009",ITAIM BIBI
+RA55000473,Adroaldo Portugal Félix Couceiro,33,3785.23,branca,masculino,2,pública,direito,Avenida Onze de Junho,571,Vila Clementino,São Paulo,SP,04041-002,1,0.4,"-46.6423513, -23.6017143",SAUDE
+RA55000474,Aman Valcanaia,28,7932.96,branca,masculino,1,privada,ciência de dados,Rua H,161,Jardim Mar Lune,São Paulo,SP,04874-120,0,0.2857142857142857,"-46.59432590000001, -23.6324654",SACOMA
+RA55000475,Netali Murtinho,50,9574.78,preta,feminino,3,privada,administração,Rua Caetano Pinto,235,Brás,São Paulo,SP,03041-000,0,0.75,"-46.621499, -23.5481405",BRAS
+RA55000476,Rosauro Minho Santiago Figueiró,31,9152.74,branca,masculino,3,privada,engenharia biomédica,Praça Rei,355,Vila Santa Cruz,São Paulo,SP,05220-020,1,0.6,"-46.63161179999999, -23.5473139",SE
+RA55000477,Iane Hilário Camilo,38,11104.4,branca,feminino,4,pública,administração,Rua Marechal Malet,170,Parque da Vila Prudente,São Paulo,SP,03140-020,1,1.0,"-46.5801547, -23.5887309",VILA PRUDENTE
+RA55000478,Balbino Rua Carreira,50,8820.79,branca,masculino,2,privada,história,Praça Marechal Deodoro,187,Santa Cecília,São Paulo,SP,01150-010,1,0.5,"-46.6547291, -23.5348011",SANTA CECILIA
+RA55000479,Magnilson Freire,28,6859.97,branca,masculino,2,pública,medicina,Rua Monsenhor Salim,959,Itaim Paulista,São Paulo,SP,08111-180,1,0.3333333333333333,"-46.3795467, -23.4951311",ITAIM PAULISTA
+RA55000480,Gislaina Couto Quaresma Dantas,38,7272.44,preta,feminino,4,pública,direito,Rua Rio Maruí,679,Itaquera,São Paulo,SP,08215-640,1,0.8,"-46.4437759, -23.5492029",JOSE BONIFACIO
+RA55000481,Erivaneide Viana,46,9709.99,branca,feminino,1,privada,engenharia biomédica,Rua Vinte e Seis de Abril,307,Vila Esperança,São Paulo,SP,03651-020,1,0.2,"-46.5185714, -23.5236442",PENHA
+RA55000482,Osmani Bulhões,36,6854.54,branca,masculino,2,privada,história,Rua Pedro Lembi,593,Vila Maria Baixa,São Paulo,SP,02110-020,1,0.5,"-46.5974888, -23.5199911",VILA GUILHERME
+RA55000483,Marleno Pinheiro Afonso Cerqueira,28,11683.93,branca,masculino,5,pública,engenharia biomédica,Praça Rui Corá,586,Vila Matilde,São Paulo,SP,03517-035,0,1.0,"-46.532438, -23.5399072",VILA MATILDE
+RA55000484,Geniplo Madruga Aranha,46,6688.02,branca,masculino,4,privada,ciência da computação,Rua Major João Nunes,800,Jardim São Paulo(Zona Norte),São Paulo,SP,02046-070,0,1.0,"-46.6109608, -23.4925579",VILA GUILHERME
+RA55000485,Evelise Sodré Cirne Borba,45,6434.57,branca,feminino,1,privada,filosofia,Rua Marechal Marques Porto,22,Jardim Caguassu,São Paulo,SP,03906-020,0,0.3333333333333333,"-46.5105097, -23.5800618",ARICANDUVA
+RA55000486,Micaele Paiva Franca Faria,36,12089.5,branca,feminino,2,privada,engenharia biomédica,Avenida Marechal Tito,891,Jardim Silva Teles,São Paulo,SP,08160-495,0,0.4,"-46.4371255, -23.4950325",SAO MIGUEL
+RA55000487,Evaldecir Veleda Conde Magalhães,42,7159.23,branca,masculino,1,privada,filosofia,Rua Vinte e Dois de Abril,329,Lajeado,São Paulo,SP,08450-420,1,0.3333333333333333,"-46.3993909, -23.5444124",LAJEADO
+RA55000488,Jeinifer Junqueira Nobre,49,8326.35,branca,feminino,2,privada,engenharia biomédica,Rua São Marcos,547,Chácara Gaivotas,São Paulo,SP,04849-314,0,0.4,"-46.6653668, -23.7370211",GRAJAU
+RA55000489,Ulises Lameirinhas,38,8246.43,preta,masculino,2,pública,filosofia,Rua Aracy de Almeida,997,Jardim Indaiá,São Paulo,SP,08143-010,0,0.6666666666666666,"-46.3941612, -23.5157961",ITAIM PAULISTA
+RA55000490,Adam Prudente,29,6177.42,branca,masculino,1,pública,ciência da computação,Rua Pedro Lembi,593,Vila Maria Baixa,São Paulo,SP,02110-020,1,0.25,"-46.5974888, -23.5199911",VILA GUILHERME
+RA55000491,Irlen Paulos Pescada,45,10949.53,branca,feminino,5,privada,filosofia,Avenida Valle,752,Parque Paulistano,São Paulo,SP,08081-070,0,1.6666666666666667,"-46.4220155, -23.491066",JD HELENA
+RA55000492,Elizabeth Jamandas Lessa Tristão,36,13499.49,branca,feminino,1,privada,filosofia,Rua Pedro Barbosa,194,Jardim Marília,São Paulo,SP,03579-130,0,0.3333333333333333,"-46.4977275, -23.5634666",CID LIDER
+RA55000493,Heidi Castro,40,12437.29,branca,feminino,3,privada,história,Rua São João,461,Cidade de Deus,São Paulo,SP,08081-655,1,0.75,"-46.7702204, -23.5479451",JAGUARE
+RA55000494,Betuel Chaves Letras,36,17680.45,branca,masculino,5,privada,ciência da computação,Rua Rainha-do-Bosque,864,Vila Santa Inês,São Paulo,SP,03812-030,0,1.25,"-46.4662972, -23.4939114",VILA JACUI
+RA55000495,Issao Palha Pescada,30,13753.8,preta,masculino,5,privada,direito,Rua Marechal Deodoro,565,Santo Amaro,São Paulo,SP,04738-900,0,1.0,"-46.6961782, -23.6408194",SANTO AMARO
+RA55000496,Emanuelly Negromonte,46,15074.95,preta,feminino,1,privada,filosofia,Rua Sargento Agostinho Ferreira,927,Vila Maria,São Paulo,SP,02129-001,0,0.3333333333333333,"-46.58596410000001, -23.5038666",VILA MARIA
+RA55000497,Macalister Ruas Paredes Sintra,38,701726.52,branca,masculino,3,privada,ciência da computação,Rua Marechal Silva Fonseca,104,Jardim Três Marias,São Paulo,SP,03676-030,0,0.75,"-46.4927623, -23.5171327",PONTE RASA
+RA55000498,Leviston Vilaverde Borba,37,945542.0,branca,masculino,3,privada,ciência de dados,Rua Treze de Maio,267,Bela Vista,São Paulo,SP,01327-905,0,0.8571428571428571,"-46.6465295, -23.5560671",BELA VISTA
+RA55000499,Gerlani Albernaz Garcez,29,606764.31,branca,feminino,2,privada,administração,Rua Sete de Abril,787,Centro,São Paulo,SP,01044-902,1,0.5,"-46.64274040000001, -23.5442654",REPUBLICA
+RA55000500,Nildivan Boga Carvalhoso Carmona,41,730311.62,branca,masculino,1,privada,ciência da computação,Rua João Paulo,132,Piqueri,São Paulo,SP,02913-080,1,0.25,"-46.7133141, -23.501929",PIRITUBA
