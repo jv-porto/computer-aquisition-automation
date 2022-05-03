@@ -23,7 +23,7 @@ PUC_COORDS = (-46.671184851274276, -23.53807279812106)
 
 
 
-def sp_map():
+def get_sp_map():
     import geopandas as gpd
 
     sp_map = gpd.read_file('../../data/shapefiles/DEINFO_DISTRITO.shp')
@@ -51,7 +51,7 @@ def geo_info(estudante):
     from shapely.geometry import Point
     import geopandas as gpd
 
-    sp_map = sp_map()
+    sp_map = get_sp_map()
     geolocator = geolocator()
 
     endereco = f'{estudante.logradouro}, {estudante.numero} - {estudante.bairro}, {estudante.cidade} - {estudante.uf}, Brasil, {estudante.cep}'
