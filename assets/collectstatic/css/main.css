@@ -1,0 +1,536 @@
+/*************** RESET ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*************** VARIABLES ***************/
+:root {
+    --hue: 159;
+    /* HSL color mode */
+    --base-color: #3474AF;
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: black;
+    --text-color-light: hsl(0 0% 98%);
+    --body-color: hsl(0 0% 98%);
+}
+
+
+
+/*************** BASE ***************/
+body {
+    font: 400 1rem "DM Sans", sans-serif;
+    color: var(--text-color);
+    background-color: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+    margin-top: 3.875rem;
+    margin-bottom: 2rem;
+}
+
+body main div.container-body p {
+    margin-bottom: 1rem;
+    margin-top: -0.1rem;
+}
+
+.title {
+    font: 700 1.875rem "Poppins", sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+    padding-bottom: 0.8rem;
+}
+
+.light-title {
+    font: 500 1.25rem "Poppins", sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+.light-subtitle {
+    font: 500 1.125rem "Poppins", sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+.light-title + .light-subtitle {
+    margin-top: -0.5rem;
+}
+
+.body-black-text {
+    font: 400 1rem "DM Sans", sans-serif;
+    color: var(--title-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+.disable-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select-readonly {
+    pointer-events: none;
+    touch-action: none;
+}
+
+
+
+/*************** HEADER ***************/
+#header {
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    height: 3.125rem;
+    width: auto;
+    cursor: pointer;
+}
+
+nav {
+    height: 3.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+div.page-title {
+    width: 100%;
+}
+
+h1.page-title {
+    padding-left: 3.71979375rem;
+    color: var(--base-color);
+}
+
+.page-actions {
+    position: fixed;
+    right: 8.125rem;
+    padding-right: 3.875rem;
+}
+
+.page-actions * {
+    display: inline;
+}
+
+.page-actions a[href=""] {
+    display: none;
+}
+
+nav div.page-actions a {
+    padding: 0 0.5rem;
+}
+
+.page-actions-pesquisar {
+    cursor: pointer;
+}
+
+.page-actions-cancelar {
+    color: red;
+}
+
+
+
+/*************** PAGE ACTIONS DROPDOWN SECTION ***************/
+nav div.page-actions .page-actions-incluir {
+    cursor: pointer;
+}
+
+nav div.page-actions div.page-actions-dropdown-section {
+    background: white;
+    display: none;
+    position: absolute;
+    /*left: 6.1rem;*/
+    top: 2.375rem;   
+}
+
+nav div.page-actions a.page-actions-incluir.open + div.page-actions-dropdown-section {
+    display: block;
+}
+
+nav div.page-actions div.page-actions-dropdown-section a {
+    display: block;
+    padding: calc(8/14 * 1rem) 1rem;
+}
+
+nav div.page-actions div.page-actions-dropdown-section a:hover {
+    background: #f3f3f3;
+}
+
+
+
+/*************** FOOTER ***************/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    
+    background-color: white;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div.footer-text p {
+    float: left;
+    color: var(--title-color);
+    padding: 0 0.9rem;
+}
+
+.footer div.footer-links a {
+    background-color: white;
+    float: right;
+    position: relative;
+    display: block;
+    padding: 0 0.9rem;
+}
+
+
+
+/*************** SIDE MENU ***************/
+nav .menu {
+    display: none;
+}
+
+nav.show-menu .menu {
+    background-color: white;
+    border-top: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    height: calc(100% - 3.625rem - 2rem);
+    width: 12.5rem;
+
+    display: block;
+    position: fixed;
+    top: 3.625rem;
+    left: 0;
+    padding: 0.5rem 1.5rem;
+}
+
+nav div.menu div.link-section a.main-button {
+    display: block;
+    cursor: pointer;
+    padding-bottom: 0.8rem;
+}
+
+nav div.menu div.link-section a.dropdown-button {
+    display: block;
+    cursor: pointer;
+}
+
+nav div.menu div.link-section div.dropdown-section {
+    padding: 0 0.8rem;
+}
+
+nav div.menu div.link-section div.dropdown-section a {
+    display: block;
+    padding-bottom: 0.8rem;
+}
+
+nav div.menu div.link-section div.dropdown-section {
+    display: none;
+}
+
+.light-title {
+    transition: color 200ms;
+}
+
+.main-button:hover {
+    color: #3474AF;
+}
+
+
+
+/*************** PROFILE ***************/
+nav div.profile .profile-image {
+    cursor: pointer;
+    display: block;
+}
+
+nav div.profile img {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav div.profile div.profile-dropdown-section {
+    background: white;
+    display: none;
+    position: absolute;
+}
+
+nav div.profile a.profile-image.open + div.profile-dropdown-section {
+    display: block;
+}
+
+nav div.profile div.profile-dropdown-section a {
+    display: block;
+    padding: calc(8/14 * 1rem) 1rem;
+}
+
+nav div.profile div.profile-dropdown-section a:hover {
+    background: #f3f3f3;
+}
+
+
+
+/*************** FOOTER ***************/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    
+    background-color: white;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div.footer-text p {
+    float: left;
+    color: var(--title-color);
+    padding: 0 0.9rem;
+}
+
+.footer div.footer-links a {
+    background-color: white;
+    float: right;
+    position: relative;
+    display: block;
+    padding: 0 0.9rem;
+}
+
+
+
+/*************** LAYOUT ***************/
+.container {
+    width: 100%;
+    padding: 0rem 5rem;
+}
+
+.container-body {
+    width: 100%;
+    padding: 0 12rem;
+    padding-bottom: 1rem;
+    /*padding: 0 10.78020625rem;*/
+    /*padding-right: 11.725rem;*/
+    text-align: justify;
+}
+
+
+
+/*************** LIST DB ITEMS ***************/
+.clickable-tr {
+    cursor: pointer;
+}
+
+.clickable-tr:hover {
+    background-color: #ebecf0;
+}
+
+table.list-db-items {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+table.list-db-items * {
+    position: relative;
+}
+
+table.list-db-items td, table.list-db-items th {
+    padding-left: 0.5rem;
+}
+
+table.list-db-items thead tr {
+    height: 3.25rem;
+    background: var(--base-color);
+    font-size: 1rem;
+}
+
+table.list-db-items thead tr th {
+    color: var(--text-color-light);
+}
+
+table.list-db-items tbody tr {
+    height: 3rem;
+    border-bottom: 1px solid #e3f1d5;
+}
+
+table.list-db-items tbody tr:last-child {
+    border: 0;
+}
+
+table.list-db-items td, table.list-db-items th {
+    text-align: left;
+}
+
+table.list-db-items td.l, table.list-db-items th.l {
+    text-align: right;
+}
+
+table.list-db-items td.c, table.list-db-items th.c {
+    text-align: center;
+}
+
+table.list-db-items td.r, table th.r {
+    text-align: center;
+}
+
+  
+
+/*************** FORMS ***************/
+/*form div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}*/
+
+form .light-title {
+    padding-bottom: 1rem;
+}
+
+form .light-title span {
+    color: red;
+}
+
+.input-unit {
+    display: inline-block;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    vertical-align: top;
+}
+
+form label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.375rem;
+}
+
+form label span {
+    color: red;
+}
+
+form input {
+    display: block;
+    font-size: 1rem;
+    line-height: 0.75rem;
+    padding: 0.5rem 1rem;
+    border: unset;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+form input[type="submit"] {
+    color: white;
+    background-color: var(--base-color);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    width: 7rem;
+    height: 2.5rem;
+}
+
+
+
+/*************** FORMS - MULTIPLE BOXES ***************/
+div .light-title strong.action-add-item {
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+div .light-title strong.action-remove-item {
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+
+
+/*************** SEARCH ***************/
+nav .pesquisar {
+    display: none;
+}
+
+nav.show-pesquisar .pesquisar {
+    display: block;
+    height: 3.625rem;
+    border-bottom: 1px solid #e4e4e4;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+nav.show-pesquisar .pesquisar form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: calc(50% - ((19.1926875rem + 1rem + 7rem)/2));
+}
+
+nav.show-pesquisar .pesquisar form input[type=submit] {
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+
+
+/*************** EDUCATIONAL PLATFORMS ***************/
+.container-embed-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 5.875rem);
+    width: 100vw;
+}
+
+
+
+/*************** TAB TEXTAREA ***************/
+.tab-textarea#contract-model {
+    /*width: 100%;*/
+    width: 70.95rem;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(0, 0, 0) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+}

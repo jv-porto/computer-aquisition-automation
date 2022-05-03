@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+                <div class="page-title">
+                    <h1 class="page-title light-title disable-select">Estudantes</h1>
+                </div>
+                <div class="page-actions">
+                    <a class="body-black-text page-actions-pesquisar disable-select">Pesquisar</a>
+                    <a href="{% url 'estudantes_incluir' %}" class="body-black-text page-actions-incluir disable-select">Incluir</a>
+                </div>
+
+                {% include '_partials/_pesquisar.html' %}
+                {% include '_partials/_menu.html' %}
+
+        <main>
+            <div class="container-body">
+                {% if estudantes %}
+                <h2 class="title disable-select">Lista</h2>
+                {% include '_partials/_alertas.html' %}
+                <table class="list-db-items">
+                    <thead>
+                        <tr>
+                            <!-- <th class="light-subtitle"></th> -->
+                            <th class="light-subtitle disable-select">Matrícula</th>
+                            <th class="light-subtitle disable-select">Nome</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% if estudantes %}
+                        {% for estudante in estudantes %}
+                        <tr class="clickable-tr disable-select">
+                            <input type="hidden" class="choose-menu-id" value="{{ estudante.matrícula }}">
+                            <td>{{ estudante.matrícula }}</td>
+                            <td><a href="{{ estudante.matrícula }}">{{ estudante.nome }}</a></td>
+                        </tr>
+                        {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+                {% endif %}
+            </div>
+        </main>
+{% endblock %}

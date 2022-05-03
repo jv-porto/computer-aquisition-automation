@@ -1,0 +1,20 @@
+{% load static %}
+<div class="menu disable-select">
+    <div class="link-section">
+        <a href="{% url 'index' %}" class="light-title main-button" id="light-title-index">Página inicial</a>
+        <a href="{% url 'estudantes' %}" class="light-title main-button" id="light-title-estudantes">Estudantes</a>
+        <a href="{% url 'solicitacoes' %}" class="light-title main-button" id="light-title-solicitacoes">Solicitações</a>
+        <a href="{% url 'notebooks' %}" class="light-title main-button" id="light-title-notebooks">Notebooks</a>
+    </div>
+</div>
+
+<div class="profile disable-select">
+    <a class="profile-image"><img src="{% static 'files/profile_icon.jpeg' %}" alt="Perfil"></a>
+    <div class="profile-dropdown-section">
+        <a href="" class="body-black-text">Perfil</a>
+        <a href="" class="body-black-text">Preferências</a>
+        <a href="" class="body-black-text">Logout</a>
+    </div>
+</div>
+</nav>
+</header>

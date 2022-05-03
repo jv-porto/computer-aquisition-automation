@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+                <div class="page-title">
+                    <h1 class="page-title light-title disable-select">Estudantes</h1>
+                </div>
+                <div class="page-actions">
+                    <a href="{% url 'estudantes_info' estudante.matrícula %}" class="body-black-text page-actions-cancelar">Cancelar</a>
+                </div>
+                
+                {% include '_partials/_menu.html' %}
+
+        <main>
+            <div class="container-body">
+                <h2 class="title">Status</h2>
+                {% include '_partials/_alertas.html' %}
+                <form action="{% url 'estudantes_alterar' estudante.matrícula %}" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-section">
+                        <h3 class="light-title">Dados básicos</h3>
+                        <div class="input-unit">
+                            <label for="matrícula">Matrícula <span>*</span></label>
+                            <input type="text" name="matrícula" id="matrícula" required readonly pattern="RA[0-9]{8}" value="{{estudante.matrícula}}" size="10" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="nome">Nome <span>*</span></label>
+                            <input type="text" name="nome" id="nome" required readonly value="{{estudante.nome}}" size="35" tabindex="-1">
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h3 class="light-title">Dados da solicitação</h3>
+                        <div class="input-unit">
+                            <label for="grupo_prioritario">Grupo prioritário <span>*</span></label>
+                            <input type="hidden" name="grupo_prioritario" id="grupo_prioritario" class="select-value" value="{{solicitacao.grupo_prioritario}}">
+                            <select name="grupo_prioritario" id="grupo_prioritario" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="1">Oriundos de escola pública</option>
+                                <option value="2">Pretos oriundos de escola privada</option>
+                                <option value="3">Brancos oriundos de escola privada</option>
+                                <option value="0">Não possui</option>
+                            </select>
+                        </div>
+                        <div class="input-unit">
+                            <label for="status">Status <span>*</span></label>
+                            <input type="hidden" name="status" id="status" class="select-value" value="{{solicitacao.status}}">
+                            <select name="status" id="status" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="ANA">Em análise</option>
+                                <option value="DEF">Deferida</option>
+                                <option value="IND">Indeferida</option>
+                            </select>
+                        </div>
+                    </div>
+                    {% if solicitacao.status == 'DEF' %}
+                    <div class="form-section">
+                        <h3 class="light-title">Dados do notebook</h3>
+                        <div class="input-unit">
+                            <label for="marca">Marca <span>*</span></label>
+                            <input type="text" name="marca" id="marca" required readonly value="{{solicitacao.notebook.marca}}" size="20" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="modelo">Modelo <span>*</span></label>
+                            <input type="text" name="modelo" id="modelo" required readonly value="{{solicitacao.notebook.modelo}}" size="35" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="especificacoes_tecnicas">Especificações técnicas <span>*</span></label>
+                            <textarea name="especificacoes_tecnicas" id="especificacoes_tecnicas" required readonly cols="70" rows="5" tabindex="-1" style="resize: none;">{{solicitacao.notebook.especificacoes_tecnicas}}</textarea>
+                        </div>
+                    </div>
+                    {% endif %}
+                </form>
+            </div>
+        </main>
+
+        {% include '_partials/_form_validation.html' %}
+{% endblock %}

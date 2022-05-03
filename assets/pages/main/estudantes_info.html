@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+                <div class="page-title">
+                    <h1 class="page-title light-title disable-select">Estudantes</h1>
+                </div>
+                <div class="page-actions">
+                    <a href="status" class="body-black-text page-actions-status disable-select">Status</a>
+                    <a href="alterar" class="body-black-text page-actions-alterar disable-select">Alterar</a>
+                    <a href="excluir" class="body-black-text page-actions-excluir disable-select">Excluir</a>
+                    <a href="{% url 'estudantes' %}" class="body-black-text page-actions-cancelar">Cancelar</a>
+                </div>
+                
+                {% include '_partials/_menu.html' %}
+
+        <main>
+            <div class="container-body">
+                <h2 class="title">Dados</h2>
+                {% include '_partials/_alertas.html' %}
+                <form action="{% url 'estudantes_alterar' estudante.matrícula %}" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-section">
+                        <h3 class="light-title">Dados básicos</h3>
+                        <div class="input-unit">
+                            <label for="matrícula">Matrícula <span>*</span></label>
+                            <input type="text" name="matrícula" id="matrícula" required readonly pattern="RA[0-9]{8}" value="{{estudante.matrícula}}" size="10" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="nome">Nome <span>*</span></label>
+                            <input type="text" name="nome" id="nome" required readonly value="{{estudante.nome}}" size="35" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="idade">Idade <span>*</span></label>
+                            <input type="text" name="idade" id="idade" required readonly value="{{estudante.idade}}" size="2" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="renda">Renda <span>*</span></label>
+                            <input type="text" name="renda" id="renda" required readonly value="{{estudante.renda|floatformat:2}}" pattern="[0-9]{0,3}.?[0-9]{1,3},[0-9]{2}" size="14" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="cor">Cor <span>*</span></label>
+                            <input type="hidden" name="cor" id="cor" class="select-value" value="{{estudante.cor}}">
+                            <select name="cor" id="cor" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="BRA">Branca</option>
+                                <option value="PRE">Preta</option>
+                            </select>
+                        </div>
+                        <div class="input-unit">
+                            <label for="sexo">Gênero <span>*</span></label>
+                            <input type="hidden" name="sexo" id="sexo" class="select-value" value="{{estudante.sexo}}">
+                            <select name="sexo" id="sexo" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="MAS">Homem</option>
+                                <option value="FEM">Mulher</option>
+                            </select>
+                        </div>
+                        <div class="input-unit">
+                            <label for="escola">Escola <span>*</span></label>
+                            <input type="hidden" name="escola" id="escola" class="select-value" value="{{estudante.escola}}">
+                            <select name="escola" id="escola" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="PRI">Privada</option>
+                                <option value="PUB">Pública</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h3 class="light-title">Dados do curso</h3>
+                        <div class="input-unit">
+                            <label for="curso">Curso <span>*</span></label>
+                            <input type="hidden" name="curso" id="curso" class="select-value" value="{{estudante.curso}}">
+                            <select name="curso" id="curso" required class="select-readonly" aria-disabled="true" tabindex="-1">
+                                <option value="1">Ciência de Dados</option>
+                                <option value="2">Direito</option>
+                                <option value="3">Medicina</option>
+                                <option value="4">História</option>
+                                <option value="5">Administração</option>
+                                <option value="6">Engenharia Biomédica</option>
+                                <option value="7">Design</option>
+                                <option value="8">Ciência da Computação</option>
+                                <option value="9">Filosofia</option>
+                            </select>
+                        </div>
+                        <div class="input-unit">
+                            <label for="ano_curso">Ano de curso <span>*</span></label>
+                            <input type="text" name="ano_curso" id="ano_curso" required readonly value="{{estudante.ano_curso}}" size="3" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="motivação">Motivação <span>*</span></label>
+                            <input type="text" name="motivação" id="motivação" required readonly value="{{estudante.motivação}}" size="2" tabindex="-1">
+                        </div>
+                    </div>
+                    <div class="form-section">
+                        <h3 class="light-title">Endereço</h3>
+                        <div class="input-unit">
+                            <label for="cep">CEP <span>*</span></label>
+                            <input type="text" name="cep" id="cep" required readonly value="{{estudante.cep}}" pattern="[0-9]{5}-[0-9]{3}" size="9" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="logradouro">Logradouro <span>*</span></label>
+                            <input type="text" name="logradouro" id="logradouro" required readonly value="{{estudante.logradouro}}" size="30" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="numero">Número <span>*</span></label>
+                            <input type="text" name="numero" id="numero" required readonly value="{{estudante.numero}}" pattern="[0-9]{1,5}" title="Digite apenas números" size="5" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="bairro">Bairro <span>*</span></label>
+                            <input type="text" name="bairro" id="bairro" required readonly value="{{estudante.bairro}}" size="20" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="cidade">Cidade <span>*</span></label>
+                            <input type="text" name="cidade" id="cidade" required readonly value="{{estudante.cidade}}" size="20" tabindex="-1">
+                        </div>
+                        <div class="input-unit">
+                            <label for="uf">UF <span>*</span></label>
+                            <input type="text" name="uf" id="uf" required readonly value="{{estudante.uf}}" size="2" tabindex="-1">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        {% include '_partials/_form_validation.html' %}
+{% endblock %}
