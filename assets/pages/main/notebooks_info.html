@@ -22,7 +22,7 @@
                         <h3 class="light-title">Dados</h3>
                         <div class="input-unit">
                             <label for="id_notebook">ID <span>*</span></label>
-                            <input type="text" name="id_notebook" id="id_notebook" required readonly value="{{notebook.id}}" size="3">
+                            <input type="text" name="id_notebook" id="id_notebook" required readonly pattern="[0-9]{1,3}" value="{{notebook.id}}" size="3">
                         </div>
                         <div class="input-unit">
                             <label for="marca">Marca <span>*</span></label>

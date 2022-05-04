@@ -1,4 +1,4 @@
-from unittest import result
+import re
 from django.shortcuts import render, redirect
 from django.core.exceptions import BadRequest
 
@@ -25,15 +25,28 @@ PUC_COORDS = (-46.671184851274276, -23.53807279812106)
 
 
 class ResultadosFinais():
-    def deferidas(grupo):
+    def deferidas():
+        q_count = Solicitacao.objects.filter(status='DEF').count()
+        return q_count
+
+    def indeferidas():
+        q_count = Solicitacao.objects.filter(status='IND').count()
+        return q_count
+
+    def total():
+        q_count = Solicitacao.objects.all().count()
+        return q_count
+    
+
+    def deferidas_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo, status='DEF').count()
         return q_count
 
-    def indeferidas(grupo):
+    def indeferidas_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo, status='IND').count()
         return q_count
 
-    def total(grupo):
+    def total_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo).count()
         return q_count
 
@@ -127,7 +140,17 @@ def index(request):
 
 #################### ESTUDANTES ####################
 def estudantes(request):
-    data = {'estudantes': Estudante.objects.all().order_by('matrícula')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        is_matricula = bool(re.search('RA[0-9]{8}', search, re.IGNORECASE))
+
+        if is_matricula:
+            data = {'estudantes': Estudante.objects.filter(matrícula__icontains=search).order_by('matrícula')}
+        else:
+            data = {'estudantes': Estudante.objects.filter(nome__icontains=search).order_by('matrícula')}
+    else:
+        data = {'estudantes': Estudante.objects.all().order_by('matrícula')}
+
     return render(request, 'main/estudantes.html', data)
 
 
@@ -259,24 +282,33 @@ def estudantes_status(request, id):
 
 #################### RECURSOS E SOLICITAÇÕES ####################
 def recursos(request):
-    data = {'recursos': Recursos.objects.all().order_by('semestre')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        data = {'recursos': Recursos.objects.filter(semestre__icontains=search).order_by('semestre')}
+    else:
+        data = {'recursos': Recursos.objects.all().order_by('semestre')}
+    
     return render(request, 'main/recursos.html', data)
 
 
 
 def recursos_info(request, semestre):
     resultados_finais = {
-        'deferidas_gp1': ResultadosFinais.deferidas(grupo=1),
-        'indeferidas_gp1': ResultadosFinais.indeferidas(grupo=1),
-        'total_gp1': ResultadosFinais.total(grupo=1),
+        'deferidas': ResultadosFinais.deferidas(),
+        'indeferidas': ResultadosFinais.indeferidas(),
+        'total': ResultadosFinais.total(),
 
-        'deferidas_gp2': ResultadosFinais.deferidas(grupo=2),
-        'indeferidas_gp2': ResultadosFinais.indeferidas(grupo=2),
-        'total_gp2': ResultadosFinais.total(grupo=2),
+        'deferidas_gp1': ResultadosFinais.deferidas_por_grupo(grupo=1),
+        'indeferidas_gp1': ResultadosFinais.indeferidas_por_grupo(grupo=1),
+        'total_gp1': ResultadosFinais.total_por_grupo(grupo=1),
+
+        'deferidas_gp2': ResultadosFinais.deferidas_por_grupo(grupo=2),
+        'indeferidas_gp2': ResultadosFinais.indeferidas_por_grupo(grupo=2),
+        'total_gp2': ResultadosFinais.total_por_grupo(grupo=2),
         
-        'deferidas_gp3': ResultadosFinais.deferidas(grupo=3),
-        'indeferidas_gp3': ResultadosFinais.indeferidas(grupo=3),
-        'total_gp3': ResultadosFinais.total(grupo=3),
+        'deferidas_gp3': ResultadosFinais.deferidas_por_grupo(grupo=3),
+        'indeferidas_gp3': ResultadosFinais.indeferidas_por_grupo(grupo=3),
+        'total_gp3': ResultadosFinais.total_por_grupo(grupo=3),
     }
 
     data = {'recurso': Recursos.objects.get(pk=semestre), 'em_analise': Solicitacao.objects.filter(status='ANA').exists(), 'resultados_finais': resultados_finais}
@@ -368,7 +400,19 @@ def solicitacoes_analisar(request, semestre):
 
 #################### NOTEBOOKS ####################
 def notebooks(request):
-    data = {'notebooks': Notebook.objects.all().order_by('id')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        is_id = bool(re.search('[0-9]{1,3}', search, re.IGNORECASE))
+
+        if is_id:
+            data = {'notebooks': Notebook.objects.filter(id__icontains=search).order_by('id')}
+        else:
+            marca = Notebook.objects.filter(marca__icontains=search).order_by('id')
+            modelo = Notebook.objects.filter(modelo__icontains=search).order_by('id')
+            data = {'notebooks': (marca | modelo)}
+    else:
+        data = {'notebooks': Notebook.objects.all().order_by('id')}
+    
     return render(request, 'main/notebooks.html', data)
 
 
