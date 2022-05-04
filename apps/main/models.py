@@ -78,7 +78,7 @@ class Solicitacao(models.Model):
 
 class Recursos(models.Model):
     semestre = models.CharField(max_length=6, primary_key=True)
-    valor_disponivel = models.IntegerField()
+    valor_disponivel = models.FloatField()
     porcentagem_gp1 = models.IntegerField()
     porcentagem_gp2 = models.IntegerField()
     porcentagem_gp3 = models.IntegerField()

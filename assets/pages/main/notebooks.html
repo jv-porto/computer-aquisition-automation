@@ -6,9 +6,7 @@
                 </div>
                 <div class="page-actions">
                     <a class="body-black-text page-actions-pesquisar disable-select">Pesquisar</a>
-                    <a href="{% url 'estudantes_incluir' %}" class="body-black-text page-actions-incluir disable-select">Incluir</a>
-                    <a href="" class="body-black-text page-actions-alterar disable-select">Alterar</a>
-                    <a href="" class="body-black-text page-actions-excluir disable-select">Excluir</a>
+                    <a href="{% url 'notebooks_incluir' %}" class="body-black-text page-actions-incluir disable-select">Incluir</a>
                 </div>
 
                 {% include '_partials/_pesquisar.html' %}
@@ -16,30 +14,23 @@
 
         <main>
             <div class="container-body">
-                {% if estudantes %}
-                <h2 class="title">Lista</h2>
+                {% if notebooks %}
+                <h2 class="title disable-select">Lista</h2>
                 {% include '_partials/_alertas.html' %}
                 <table class="list-db-items">
                     <thead>
                         <tr>
-                            <th class="light-subtitle"></th>
-                            <th class="light-subtitle">ID</th>
-                            <th class="light-subtitle">Nome</th>
-                            <th class="light-subtitle">Celular</th>
-                            <th class="light-subtitle">Telefone</th>
-                            <th class="light-subtitle">E-mail</th>
+                            <th class="light-subtitle disable-select">ID</th>
+                            <th class="light-subtitle disable-select">Marca - Modelo</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {% if estudantes %}
-                        {% for estudante in estudantes %}
-                        <tr>
-                            <td><input type="radio" name="person" class="choose-menu-id" id="{{ estudante.id }}" value="{{ estudante.id }}"></td>
-                            <td>{{ estudante.id }}</td>
-                            <td>{{ estudante.nome }}</td>
-                            <td>{{ estudante.celular }}</td>
-                            <td>{{ estudante.telefone }}</td>
-                            <td>{{ estudante.email }}</td>
+                        {% if notebooks %}
+                        {% for notebook in notebooks %}
+                        <tr class="clickable-tr disable-select">
+                            <input type="hidden" class="choose-menu-id" value="{{ notebook.id }}">
+                            <td>{{ notebook.id }}</td>
+                            <td><a href="{{ notebook.id }}">{{ notebook.marca }} - {{ notebook.modelo }}</a></td>
                         </tr>
                         {% endfor %}
                         {% endif %}
