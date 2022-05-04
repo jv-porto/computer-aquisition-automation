@@ -13,10 +13,18 @@ urlpatterns = [
     path('estudantes/<str:id>/excluir/', estudantes_excluir, name='estudantes_excluir'),
     path('estudantes/<str:id>/status/', estudantes_status, name='estudantes_status'),
 
-    path('solicitacoes/', solicitacoes, name='solicitacoes'),
+    path('recursos/', recursos, name= 'recursos'),
+    path('recursos/incluir/', recursos_incluir, name= 'recursos_incluir'),
+    path('recursos/<str:semestre>/', recursos_info, name= 'recursos_info'),
+    path('recursos/<str:semestre>/alterar/', recursos_alterar, name= 'recursos_alterar'),
+    path('recursos/<str:semestre>/excluir/', recursos_excluir, name= 'recursos_excluir'),
+    path('solicitacoes/<str:semestre>/analisar/', solicitacoes_analisar, name='solicitacoes_analisar'),
 
     path('notebooks/', notebooks, name='notebooks'),
     path('notebooks/incluir/', notebooks_incluir, name='notebooks_incluir'),
-    path('notebooks/alterar/<str:id>/', notebooks_alterar, name='notebooks_alterar'),
-    path('notebooks/excluir/<str:id>/', notebooks_excluir, name='notebooks_excluir'),
+    path('notebooks/<str:id>/', notebooks_info, name='notebooks_info'),
+    path('notebooks/<str:id>/alterar/', notebooks_alterar, name='notebooks_alterar'),
+    path('notebooks/<str:id>/excluir/', notebooks_excluir, name='notebooks_excluir'),
+    
+    path('db/popular/', populate_db, name='populate_db'),
 ]

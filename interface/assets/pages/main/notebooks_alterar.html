@@ -2,10 +2,10 @@
 {% load static %}
 {% block content %}
                 <div class="page-title">
-                    <h1 class="page-title light-title disable-select">Pessoas - Estudantes</h1>
+                    <h1 class="page-title light-title disable-select">Notebooks</h1>
                 </div>
                 <div class="page-actions">
-                    <a href="{% url 'pessoas_estudantes' %}" class="body-black-text page-actions-cancelar">Cancelar</a>
+                    <a href="{% url 'notebooks_info' notebook.id %}" class="body-black-text page-actions-cancelar">Cancelar</a>
                 </div>
                 
                 {% include '_partials/_menu.html' %}
@@ -14,129 +14,30 @@
             <div class="container-body">
                 <h2 class="title">Alterar</h2>
                 {% include '_partials/_alertas.html' %}
-                <form action="{% url 'pessoas_estudantes_alterar' estudante.id %}" method="post" enctype="multipart/form-data">
+                <form action="{% url 'notebooks_alterar' notebook.id %}" method="post" enctype="multipart/form-data">
                     {% csrf_token %}
                     <div class="form-section">
-                        <h3 class="light-title">Dados básicos</h3>
+                        <h3 class="light-title">Dados</h3>
                         <div class="input-unit">
-                            <label for="student-id">ID <span>*</span></label>
-                            <input type="text" name="student-id" id="student-id" required readonly value="{{estudante.id}}" pattern="[0-9]{9}" size="9">
+                            <label for="id_notebook">ID <span>*</span></label>
+                            <input type="text" name="id_notebook" id="id_notebook" required readonly value="{{notebook.id}}" size="3">
                         </div>
                         <div class="input-unit">
-                            <label for="name">Nome completo <span>*</span></label>
-                            <input type="text" name="name" id="name" required value="{{estudante.nome}}" size="35">
+                            <label for="marca">Marca <span>*</span></label>
+                            <input type="text" name="marca" id="marca" required value="{{notebook.marca}}" size="20">
                         </div>
                         <div class="input-unit">
-                            <label for="birthdate">Data de nascimento <span>*</span></label>
-                            <input type="date" name="birthdate" id="birthdate" required value="{{estudante.data_nascimento}}">
+                            <label for="modelo">Modelo <span>*</span></label>
+                            <input type="text" name="modelo" id="modelo" required value="{{notebook.modelo}}" size="35">
                         </div>
                         <div class="input-unit">
-                            <label for="cpf">CPF <span>*</span></label>
-                            <input type="text" name="cpf" id="cpf" required readonly value="{{estudante.cpf}}" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" size="14">
+                            <label for="preco">Preço <span>*</span></label>
+                            <input type="text" name="preco" id="preco" required pattern="[0-9]{0,2}.?[0-9]{1,3},?[0-9]{2}?" value="{{notebook.preco|floatformat:2}}" size="9">
                         </div>
+                        <br>
                         <div class="input-unit">
-                            <label for="rg">RG <span>*</span></label>
-                            <input type="text" name="rg" id="rg" required readonly value="{{estudante.rg}}" pattern="[0-9]{2}.[0-9]{3}.[0-9]{3}-[0-9]{1}" size="12">
-                        </div>
-                        <div class="input-unit">
-                            <label for="cellphone-number">Telefone celular <span>*</span></label>
-                            <input type="text" name="cellphone-number" id="cellphone-number" class="telephone" required value="{{estudante.celular}}" pattern="[0-9]{2}\s[0-9]{4,5}\s[0-9]{4}" size="13">
-                        </div>
-                        <div class="input-unit">
-                            <label for="phone-number">Telefone fixo</label>
-                            <input type="text" name="phone-number" id="phone-number" class="telephone" value="{{estudante.telefone}}" pattern="[0-9]{2}\s[0-9]{4,5}\s[0-9]{4}" size="13">
-                        </div>
-                        <div class="input-unit">
-                            <label for="email">E-mail <span>*</span></label>
-                            <input type="email" name="email" id="email" required value="{{estudante.email}}" size="30">
-                        </div>
-                        <div class="input-unit">
-                            <label for="gender">Gênero <span>*</span></label>
-                            <input type="hidden" name="gender" id="gender" class="select-value" value="{{estudante.genero}}">
-                            <select name="gender" id="gender" required>
-                                <option value="Homem">Homem</option>
-                                <option value="Mulher">Mulher</option>
-                                <option value="Não-binário">Não-binário</option>
-                                <option value="Agênero">Agênero</option>
-                                <option value="Outro">Outro</option>
-                                <option value="Prefere não responder" selected>Prefere não responder</option>
-                            </select>
-                        </div>
-                        <div class="input-unit">
-                            <label for="color">Cor <span>*</span></label>
-                            <input type="hidden" name="color" id="color" class="select-value" value="{{estudante.cor}}">
-                            <select name="color" id="color" required>
-                                <option value="Branca">Branca</option>
-                                <option value="Preta">Preta</option>
-                                <option value="Parda">Parda</option>
-                                <option value="Amarela">Amarela</option>
-                                <option value="Indígena">Indígena</option>
-                                <option value="Prefere não responder" selected>Prefere não responder</option>
-                            </select>
-                        </div>
-                        <div class="input-unit">
-                            <input type="hidden" name="marital-status" id="marital-status" class="select-value" value="{{estudante.estado_civil}}">
-                            <label for="marital-status">Estado civil <span>*</span></label>
-                            <select name="marital-status" id="marital-status" required>
-                                <option value="Solteiro(a)">Solteiro(a)</option>
-                                <option value="Casado(a)">Casado(a)/Mora com companheiro(a)</option>
-                                <option value="Divorciado(a)">Divorciado(a)/Separado(a)</option>
-                                <option value="Viúvo(a)">Viúvo(a)</option>
-                                <option value="Prefere não responder" selected>Prefere não responder</option>
-                            </select>
-                        </div>
-                        <div class="input-unit">
-                            <label for="occupation">Profissão <span>*</span></label>
-                            <input type="occupation" name="occupation" id="occupation" required value={{estudante.profissao}} size="30">
-                        </div>
-                        <div class="input-unit">
-                            <label for="nationality">Nacionalidade <span>*</span></label>
-                            <input type="nationality" name="nationality" id="nationality" required value={{estudante.nacionalidade}} size="30">
-                        </div>
-                        {% if estudante.foto %}
-                        <div class="input-unit">
-                            <label for="photo">Foto atual</label>
-                            <img src="{{ estudante.foto }}" alt="Foto" style='height: auto; width: 8.5rem;'>
-                        </div>
-                        {% endif %}
-                        <div class="input-unit">
-                            <label for="photo">Foto</label>
-                            <input type="file" name="photo" id="photo" accept="image/*">
-                        </div>
-                    </div>
-                    <div class="form-section">
-                        <h3 class="light-title">Endereço</h3>
-                        <div class="input-unit">
-                            <label for="postal-code">CEP <span>*</span></label>
-                            <input type="text" name="postal-code" id="postal-code" required value="{{estudante.cep}}" pattern="[0-9]{5}-[0-9]{3}" size="9">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-street">Lougradouro <span>*</span></label>
-                            <input type="text" name="address-street" id="address-street" required value="{{estudante.lougradouro}}" size="30">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-number">Número <span>*</span></label>
-                            <input type="text" name="address-number" id="address-number" required value="{{estudante.numero}}" pattern="[0-9]{1,5}" title="Digite apenas números" size="5">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-complements">Complemento</label>
-                            <input type="text" name="address-complements" id="address-complements" value="{{estudante.complemento}}" size="10">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-neighborhood">Bairro <span>*</span></label>
-                            <input type="text" name="address-neighborhood" id="address-neighborhood" required value="{{estudante.bairro}}" size="20">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-city">Cidade <span>*</span></label>
-                            <input type="text" name="address-city" id="address-city" required value="{{estudante.cidade}}" size="20">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-state">Estado <span>*</span></label>
-                            <input type="text" name="address-state" id="address-state" required value="{{estudante.estado}}" size="20">
-                        </div>
-                        <div class="input-unit">
-                            <label for="address-country">País <span>*</span></label>
-                            <input type="text" name="address-country" id="address-country" required value="{{estudante.pais}}" size="20">
+                            <label for="especificacoes_tecnicas">Especificações técnicas <span>*</span></label>
+                            <textarea name="especificacoes_tecnicas" id="especificacoes_tecnicas" required cols="70" rows="5" style="resize: none;">{{notebook.especificacoes_tecnicas}}</textarea>
                         </div>
                     </div>
                     <input type="submit" name="submit" id="submit" value="Enviar">

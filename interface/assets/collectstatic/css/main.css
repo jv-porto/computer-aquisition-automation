@@ -63,7 +63,7 @@ body main div.container-body p {
 }
 
 .light-subtitle {
-    font: 500 1.125rem "Poppins", sans-serif;
+    font: 500 1.0625rem "Poppins", sans-serif;
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -151,6 +151,10 @@ nav div.page-actions a {
 
 .page-actions-cancelar {
     color: red;
+}
+
+.page-actions-solicitacoes-analisar {
+    color: var(--base-color);
 }
 
 

@@ -4,7 +4,10 @@ const numero_endereco = document.querySelectorAll('#numero')
 const renda = document.querySelectorAll('#renda')
 const idade = document.querySelectorAll('#idade')
 const motivacao = document.querySelectorAll('#motivação')
-// const ano_curso = document.querySelectorAll('#ano-curso')
+const preco = document.querySelectorAll('#preco')
+const id_notebook = document.querySelectorAll('#id_notebook')
+const valor_disponivel = document.querySelectorAll('#valor_disponivel')
+const porcentagem_gp = document.querySelectorAll('.porcentagem_gp')
 
 
 
@@ -61,10 +64,35 @@ for (const item of motivacao) {
 }
 
 
-// for (const item of ano_curso) {
-//     new Cleave(item, {
-//         numericOnly: true,
-//         numeralDecimalMark: ',',
-//         delimiter: '.',
-//     })
-// }
+for (const item of preco) {
+    new Cleave(item, {
+        numeral: true,
+        numeralDecimalMark: ',',
+        delimiter: '.',
+    })
+}
+
+
+for (const item of id_notebook) {
+    new Cleave(item, {
+        blocks: [3],
+        numericOnly: true
+    })
+}
+
+
+for (const item of valor_disponivel) {
+    new Cleave(item, {
+        numeral: true,
+        numeralDecimalMark: ',',
+        delimiter: '.',
+    })
+}
+
+
+for (const item of porcentagem_gp) {
+    new Cleave(item, {
+        numeral: true,
+        numeralDecimalMark: ',',
+    })
+}

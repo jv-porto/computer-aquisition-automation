@@ -2,11 +2,11 @@
 {% load static %}
 {% block content %}
                 <div class="page-title">
-                    <h1 class="page-title light-title disable-select">Estudantes</h1>
+                    <h1 class="page-title light-title disable-select">Solicitações</h1>
                 </div>
                 <div class="page-actions">
                     <a class="body-black-text page-actions-pesquisar disable-select">Pesquisar</a>
-                    <a href="{% url 'estudantes_incluir' %}" class="body-black-text page-actions-incluir disable-select">Incluir</a>
+                    <a href="{% url 'recursos_incluir' %}" class="body-black-text page-actions-incluir disable-select">Incluir</a>
                 </div>
 
                 {% include '_partials/_pesquisar.html' %}
@@ -14,23 +14,21 @@
 
         <main>
             <div class="container-body">
-                {% if estudantes %}
+                {% if recursos %}
                 <h2 class="title disable-select">Lista</h2>
                 {% include '_partials/_alertas.html' %}
                 <table class="list-db-items">
                     <thead>
                         <tr>
-                            <th class="light-subtitle disable-select">Matrícula</th>
-                            <th class="light-subtitle disable-select">Nome</th>
+                            <th class="light-subtitle disable-select">Semestre</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {% if estudantes %}
-                        {% for estudante in estudantes %}
+                        {% if recursos %}
+                        {% for recurso in recursos %}
                         <tr class="clickable-tr disable-select">
-                            <input type="hidden" class="choose-menu-id" value="{{ estudante.matrícula }}">
-                            <td>{{ estudante.matrícula }}</td>
-                            <td><a href="{{ estudante.matrícula }}">{{ estudante.nome }}</a></td>
+                            <input type="hidden" class="choose-menu-id" value="{{ recurso.semestre }}">
+                            <td><a href="{{ recurso.semestre }}">{{ recurso.semestre }}</a></td>
                         </tr>
                         {% endfor %}
                         {% endif %}

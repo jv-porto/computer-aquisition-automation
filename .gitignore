@@ -1,1 +1,5 @@
 data/credentials.cfg
+interface/pucsp/__pycache__/
+interface/apps/main/__pycache__/
+interface/apps/main/migrations/__pycache__/
+interface/.gitignore
