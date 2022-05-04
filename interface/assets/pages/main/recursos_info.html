@@ -45,7 +45,7 @@
                             <input type="text" name="porcentagem_gp3" id="porcentagem_gp3" class="porcentagem_gp" required readonly value="{{recurso.porcentagem_gp3|floatformat:1}}" pattern="[0-9]{1,2},?[0-9]{0,1}" size="4">
                         </div>
                     </div>
-                    {% if not em_analise %}
+                    {% if not em_analise and resultados_finais.total %}
                     <div class="form-section">
                         <h3 class="light-title">Resultados finais</h3>
                         <div class="input-unit">

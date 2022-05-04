@@ -1,8 +1,8 @@
 <div class="container pesquisar">
-    <p class="pesquisar-actions-close disable-select" style="font-size: 1.25rem; cursor: pointer;">x</p>
+    <!-- <p class="pesquisar-actions-close disable-select" style="font-size: 1.25rem; cursor: pointer;">x</p> -->
     <form method="post">
         {% csrf_token %}
-        <input type="text" name="search" id="search" size="35" placeholder="Pesquisar">
-        <input type="submit" name="submit" id="submit" value="Enviar">
+        <input type="search" name="search" id="search" size="50" placeholder="Pesquisar">
+        <!-- <input type="submit" name="submit" id="submit" value="Enviar"> -->
     </form>
 </div>

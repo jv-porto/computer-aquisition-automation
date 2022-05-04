@@ -16,18 +16,17 @@ const page_actions_pesquisar = document.querySelectorAll('div.page-actions .page
 for (const item of page_actions_pesquisar) {
     item.addEventListener('click', function () {
         nav.classList.toggle('show-pesquisar')
-    })
-}
 
+        for (const input of search_input) {
+            input.focus()
+        }
 
-
-/*************** ADD SEARCH FILTER ***************/
-const search_input = document.querySelectorAll('div.pesquisar form input#search')
-const search_form = document.querySelectorAll('div.pesquisar form')
-for (const item of search_input) {
-    item.addEventListener('blur', function () {
-        for (const form of search_form) {
-            form.action = `?search=${item.value}`
+        document.addEventListener('keydown', keydownEscape)
+        function keydownEscape (event) {
+            if (event.keyCode === 27) {
+                nav.classList.toggle('show-pesquisar')
+                document.removeEventListener('keydown', keydownEscape)
+            }
         }
     })
 }
@@ -40,6 +39,19 @@ for (const item of pesquisar_actions_close) {
     item.addEventListener('click', function () {
         nav.classList.toggle('show-pesquisar')
     })
+}
+
+
+
+/*************** ADD SEARCH FILTER ***************/
+const search_form = document.querySelectorAll('div.pesquisar form')
+const search_input = document.querySelectorAll('div.pesquisar form input#search')
+for (const form of search_form) {
+    for (const input of search_input) {
+        form.addEventListener('submit', function () {
+            form.action = `?search=${input.value}`
+        })
+    }
 }
 
 

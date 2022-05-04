@@ -1,4 +1,4 @@
-from unittest import result
+import re
 from django.shortcuts import render, redirect
 from django.core.exceptions import BadRequest
 
@@ -25,15 +25,28 @@ PUC_COORDS = (-46.671184851274276, -23.53807279812106)
 
 
 class ResultadosFinais():
-    def deferidas(grupo):
+    def deferidas():
+        q_count = Solicitacao.objects.filter(status='DEF').count()
+        return q_count
+
+    def indeferidas():
+        q_count = Solicitacao.objects.filter(status='IND').count()
+        return q_count
+
+    def total():
+        q_count = Solicitacao.objects.all().count()
+        return q_count
+    
+
+    def deferidas_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo, status='DEF').count()
         return q_count
 
-    def indeferidas(grupo):
+    def indeferidas_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo, status='IND').count()
         return q_count
 
-    def total(grupo):
+    def total_por_grupo(grupo):
         q_count = Solicitacao.objects.filter(grupo_prioritario=grupo).count()
         return q_count
 
@@ -61,7 +74,7 @@ def get_geolocator():
 
 
 
-def geo_info(estudante):
+def get_geo_info(estudante):
     from shapely.geometry import Point
     import geopandas as gpd
 
@@ -86,7 +99,7 @@ def geo_info(estudante):
 
 
 
-def grupo_prioritario(renda, escola, cor):
+def get_grupo_prioritario(renda, escola, cor):
             if renda > 3*SALARIO_MINIMO:
                 return 0
             elif escola == 'PUB':
@@ -98,7 +111,7 @@ def grupo_prioritario(renda, escola, cor):
 
 
 
-def notebook(curso):
+def get_notebook(curso):
     computador_por_curso = {
         1: 1,  # ciência de dados
         2: 3,  # direito
@@ -127,7 +140,17 @@ def index(request):
 
 #################### ESTUDANTES ####################
 def estudantes(request):
-    data = {'estudantes': Estudante.objects.all().order_by('matrícula')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        is_matricula = bool(re.search('RA[0-9]{8}', search, re.IGNORECASE))
+
+        if is_matricula:
+            data = {'estudantes': Estudante.objects.filter(matrícula__icontains=search).order_by('matrícula')}
+        else:
+            data = {'estudantes': Estudante.objects.filter(nome__icontains=search).order_by('matrícula')}
+    else:
+        data = {'estudantes': Estudante.objects.all().order_by('matrícula')}
+
     return render(request, 'main/estudantes.html', data)
 
 
@@ -161,7 +184,7 @@ def estudantes_incluir(request):
             'motivação': int(request.POST['motivação']),
         }
         
-        coordenadas_long_lat, distrito, distancia_ate_puc = geo_info(estudante_infos)
+        coordenadas_long_lat, distrito, distancia_ate_puc = get_geo_info(estudante_infos)
 
         estudante_infos['porcentagem_concluida_curso'] = 100*(estudante_infos['ano_curso']/DURACAO_CURSOS[estudante_infos['curso']])
         estudante_infos['coordenadas_long_lat'] = coordenadas_long_lat
@@ -172,11 +195,11 @@ def estudantes_incluir(request):
         estudante.save()
 
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         
         solicitacao_infos = {
             'estudante': estudante,
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -212,7 +235,7 @@ def estudantes_alterar(request, id):
             'motivação': int(request.POST['motivação']),
         }
         
-        coordenadas_long_lat, distrito, distancia_ate_puc = geo_info(estudante_infos)
+        coordenadas_long_lat, distrito, distancia_ate_puc = get_geo_info(estudante_infos)
 
         estudante_infos['porcentagem_concluida_curso'] = 100*(estudante_infos['ano_curso']/DURACAO_CURSOS[estudante_infos['curso']])
         estudante_infos['coordenadas_long_lat'] = coordenadas_long_lat
@@ -222,11 +245,11 @@ def estudantes_alterar(request, id):
         Estudante.objects.update_or_create(pk=id, defaults=estudante_infos)
 
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         
         solicitacao_infos = {
             'estudante': Estudante.objects.get(pk=id),
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -259,24 +282,33 @@ def estudantes_status(request, id):
 
 #################### RECURSOS E SOLICITAÇÕES ####################
 def recursos(request):
-    data = {'recursos': Recursos.objects.all().order_by('semestre')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        data = {'recursos': Recursos.objects.filter(semestre__icontains=search).order_by('semestre')}
+    else:
+        data = {'recursos': Recursos.objects.all().order_by('semestre')}
+    
     return render(request, 'main/recursos.html', data)
 
 
 
 def recursos_info(request, semestre):
     resultados_finais = {
-        'deferidas_gp1': ResultadosFinais.deferidas(grupo=1),
-        'indeferidas_gp1': ResultadosFinais.indeferidas(grupo=1),
-        'total_gp1': ResultadosFinais.total(grupo=1),
+        'deferidas': ResultadosFinais.deferidas(),
+        'indeferidas': ResultadosFinais.indeferidas(),
+        'total': ResultadosFinais.total(),
 
-        'deferidas_gp2': ResultadosFinais.deferidas(grupo=2),
-        'indeferidas_gp2': ResultadosFinais.indeferidas(grupo=2),
-        'total_gp2': ResultadosFinais.total(grupo=2),
+        'deferidas_gp1': ResultadosFinais.deferidas_por_grupo(grupo=1),
+        'indeferidas_gp1': ResultadosFinais.indeferidas_por_grupo(grupo=1),
+        'total_gp1': ResultadosFinais.total_por_grupo(grupo=1),
+
+        'deferidas_gp2': ResultadosFinais.deferidas_por_grupo(grupo=2),
+        'indeferidas_gp2': ResultadosFinais.indeferidas_por_grupo(grupo=2),
+        'total_gp2': ResultadosFinais.total_por_grupo(grupo=2),
         
-        'deferidas_gp3': ResultadosFinais.deferidas(grupo=3),
-        'indeferidas_gp3': ResultadosFinais.indeferidas(grupo=3),
-        'total_gp3': ResultadosFinais.total(grupo=3),
+        'deferidas_gp3': ResultadosFinais.deferidas_por_grupo(grupo=3),
+        'indeferidas_gp3': ResultadosFinais.indeferidas_por_grupo(grupo=3),
+        'total_gp3': ResultadosFinais.total_por_grupo(grupo=3),
     }
 
     data = {'recurso': Recursos.objects.get(pk=semestre), 'em_analise': Solicitacao.objects.filter(status='ANA').exists(), 'resultados_finais': resultados_finais}
@@ -368,7 +400,19 @@ def solicitacoes_analisar(request, semestre):
 
 #################### NOTEBOOKS ####################
 def notebooks(request):
-    data = {'notebooks': Notebook.objects.all().order_by('id')}
+    if 'search' in request.GET:
+        search = request.GET['search']
+        is_id = bool(re.search('[0-9]{1,3}', search, re.IGNORECASE))
+
+        if is_id:
+            data = {'notebooks': Notebook.objects.filter(id__icontains=search).order_by('id')}
+        else:
+            marca = Notebook.objects.filter(marca__icontains=search).order_by('id')
+            modelo = Notebook.objects.filter(modelo__icontains=search).order_by('id')
+            data = {'notebooks': (marca | modelo)}
+    else:
+        data = {'notebooks': Notebook.objects.all().order_by('id')}
+    
     return render(request, 'main/notebooks.html', data)
 
 
@@ -428,7 +472,7 @@ def notebooks_excluir(request, id):
 #################### POPULAR BASE DE DADOS COM O DATASET FORNECIDO ####################
 def resetar_db(request):
     import os
-    os.system('python manage.py flush')
+    os.system('python manage.py flush --no-input')
     return redirect('index')
 
 
@@ -518,10 +562,10 @@ def popular_db(request):
         estudante = Estudante.objects.create(**estudante_infos)
         estudante.save()
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         solicitacao_infos = {
             'estudante': estudante,
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -529,4 +573,4 @@ def popular_db(request):
         solicitacao.save()
 
 
-        return redirect('index')
+    return redirect('index')
