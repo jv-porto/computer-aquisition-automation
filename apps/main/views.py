@@ -61,7 +61,7 @@ def get_geolocator():
 
 
 
-def geo_info(estudante):
+def get_geo_info(estudante):
     from shapely.geometry import Point
     import geopandas as gpd
 
@@ -86,7 +86,7 @@ def geo_info(estudante):
 
 
 
-def grupo_prioritario(renda, escola, cor):
+def get_grupo_prioritario(renda, escola, cor):
             if renda > 3*SALARIO_MINIMO:
                 return 0
             elif escola == 'PUB':
@@ -98,7 +98,7 @@ def grupo_prioritario(renda, escola, cor):
 
 
 
-def notebook(curso):
+def get_notebook(curso):
     computador_por_curso = {
         1: 1,  # ciência de dados
         2: 3,  # direito
@@ -161,7 +161,7 @@ def estudantes_incluir(request):
             'motivação': int(request.POST['motivação']),
         }
         
-        coordenadas_long_lat, distrito, distancia_ate_puc = geo_info(estudante_infos)
+        coordenadas_long_lat, distrito, distancia_ate_puc = get_geo_info(estudante_infos)
 
         estudante_infos['porcentagem_concluida_curso'] = 100*(estudante_infos['ano_curso']/DURACAO_CURSOS[estudante_infos['curso']])
         estudante_infos['coordenadas_long_lat'] = coordenadas_long_lat
@@ -172,11 +172,11 @@ def estudantes_incluir(request):
         estudante.save()
 
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         
         solicitacao_infos = {
             'estudante': estudante,
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -212,7 +212,7 @@ def estudantes_alterar(request, id):
             'motivação': int(request.POST['motivação']),
         }
         
-        coordenadas_long_lat, distrito, distancia_ate_puc = geo_info(estudante_infos)
+        coordenadas_long_lat, distrito, distancia_ate_puc = get_geo_info(estudante_infos)
 
         estudante_infos['porcentagem_concluida_curso'] = 100*(estudante_infos['ano_curso']/DURACAO_CURSOS[estudante_infos['curso']])
         estudante_infos['coordenadas_long_lat'] = coordenadas_long_lat
@@ -222,11 +222,11 @@ def estudantes_alterar(request, id):
         Estudante.objects.update_or_create(pk=id, defaults=estudante_infos)
 
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         
         solicitacao_infos = {
             'estudante': Estudante.objects.get(pk=id),
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -428,7 +428,7 @@ def notebooks_excluir(request, id):
 #################### POPULAR BASE DE DADOS COM O DATASET FORNECIDO ####################
 def resetar_db(request):
     import os
-    os.system('python manage.py flush')
+    os.system('python manage.py flush --no-input')
     return redirect('index')
 
 
@@ -518,10 +518,10 @@ def popular_db(request):
         estudante = Estudante.objects.create(**estudante_infos)
         estudante.save()
 
-        gp = grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
+        gp = get_grupo_prioritario(estudante_infos['renda'], estudante_infos['escola'], estudante_infos['cor'])
         solicitacao_infos = {
             'estudante': estudante,
-            'notebook': Notebook.objects.get(pk=notebook(estudante_infos['curso'])),
+            'notebook': Notebook.objects.get(pk=get_notebook(estudante_infos['curso'])),
             'grupo_prioritario': gp,
             'status': 'IND' if gp == 0 else 'ANA',
         }
@@ -529,4 +529,4 @@ def popular_db(request):
         solicitacao.save()
 
 
-        return redirect('index')
+    return redirect('index')
