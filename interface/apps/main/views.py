@@ -426,9 +426,44 @@ def notebooks_excluir(request, id):
 
 
 #################### POPULAR BASE DE DADOS COM O DATASET FORNECIDO ####################
-def populate_db(request):
-    import pandas as pd
+def resetar_db(request):
+    import os
+    os.system('python manage.py flush')
+    return redirect('index')
 
+
+
+def popular_db(request):
+    notebooks_info = {
+        1: {
+            'id': 1,
+            'marca': 'Lenovo',
+            'modelo': 'IdeaPad 3i 82BS000MBR',
+            'especificacoes_tecnicas': 'Intel Core i7 10510U, 8GB RAM, 256 GB SSD, Placa de vídeo dedicada NVIDIA GeForce MX330 até 2GB GDDR5 de memória',
+            'preco': 4274.80,
+        },
+        2: {
+            'id': 2,
+            'marca': 'Lenovo',
+            'modelo': 'IdeaPad 3i 82BS000GBR',
+            'especificacoes_tecnicas': 'Intel Core i5 10210U, 8GB RAM, 256 GB SSD, Placa de vídeo integrada – Intel UHD Graphics',
+            'preco': 3285.77,
+        },
+        3: {
+            'id': 3,
+            'marca': 'Lenovo',
+            'modelo': 'IdeaPad 3i 82BU0006BR',
+            'especificacoes_tecnicas': 'Dual Core, 4GB RAM, 128GB SSD',
+            'preco': 2181.43,
+        },
+    }
+
+    for notebook_info in notebooks_info.values():
+        notebook = Notebook.objects.create(**notebook_info)
+        notebook.save()
+
+
+    import pandas as pd
     dados = pd.read_csv('assets/collectstatic/files/data/dados.csv')
 
     choices = {

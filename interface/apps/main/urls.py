@@ -26,5 +26,6 @@ urlpatterns = [
     path('notebooks/<str:id>/alterar/', notebooks_alterar, name='notebooks_alterar'),
     path('notebooks/<str:id>/excluir/', notebooks_excluir, name='notebooks_excluir'),
     
-    path('db/popular/', populate_db, name='populate_db'),
+    path('db/resetar/', resetar_db, name='resetar_db'),
+    path('db/popular/', popular_db, name='popular_db'),
 ]
