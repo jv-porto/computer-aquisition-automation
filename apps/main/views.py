@@ -385,14 +385,14 @@ def solicitacoes_analisar(request, semestre):
 
     valor_restante = 0
     for gp, valor_disponivel in valor_disponivel_por_gp.items():
-        q = Solicitacao.objects.filter(grupo_prioritario=gp).order_by('estudante__renda', 'estudante__idade')
+        q = Solicitacao.objects.filter(grupo_prioritario=gp).order_by('estudante__renda', 'estudante__porcentagem_concluida_curso')
         valor_restante += analisar_gp(q, valor_disponivel, 'ANA')
     
     for gp in valor_disponivel_por_gp.keys():
-        q = Solicitacao.objects.filter(grupo_prioritario=gp, status='ANA').order_by('estudante__renda', 'estudante__idade')
+        q = Solicitacao.objects.filter(grupo_prioritario=gp, status='ANA').order_by('estudante__renda', 'estudante__porcentagem_concluida_curso')
         valor_restante = analisar_gp(q, valor_restante, 'IND')
 
-    return redirect('recursos')
+    return redirect('recursos_info', semestre)
 
 
 
